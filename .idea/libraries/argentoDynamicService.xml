@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="argentoDynamicService">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argentoDynamicService.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

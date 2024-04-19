@@ -1,0 +1,1550 @@
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5625692b-0eae-4763-9c2b-d11629962cb2  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now flushing all 40 buffered log messages based on Normal Bootstrapping
+Checking for all Java Agents...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  180561e3-2119-4115-989d-ee7f7e1e0a2f  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent Location is /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/javaagent.jar
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e7c8a927-2252-453b-9530-9fe37acab296  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent installation directory: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1d4f6d96-aa1f-433b-9748-c65929ba9f10  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.agent.conf.dir, APPDYNAMICS_AGENT_CONFIG_DIR, null)
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1ce4aef3-e2e5-416f-a8a0-c20e07848797  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.global.config.dir, APPDYNAMICS_GLOBAL_CONFIG_DIR, null)
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  20493880-6167-4755-8e7f-2750d005bd32  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Install Dir is a versioned folder...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  437c88ce-8f5f-4867-b791-57fbe152459f  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent global config found here: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/conf
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5be08391-0534-4b1f-a216-ebc6019c8296  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent version config found here: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/conf
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8e44f503-2d4b-4e11-8840-5a4aba7f1a3d  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent version config agent.properties does not exist here: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/conf/agent.properties
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  041ec851-94d0-41f7-923c-7e59b082afbd  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent global config agent.properties does not exist here: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/conf/agent.properties
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1459a63c-546e-49cd-b670-226d206b2203  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent version config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host>23-11-onprem-window2019-controller.e2e.appd-test.com</controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port>8181</controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled>true</controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name>*************</application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name>**************</tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name>**************</node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename></credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password></credential-store-password>
+    <!-- Format for the 'Secure Credential Store' (SCS).
+    The default format is JCEKS, but if a format like FIPS and a different security provider is chosen,
+    it should be ensured that all other certificates like cacerts also should be in this format -->
+    <credential-store-format></credential-store-format>
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name>************</account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key>************************************</account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a0b20f0f-cfe7-43ab-a237-5b6e6fa45375  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent global config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host></controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port></controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled></controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name></application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name></tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name></node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename></credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password></credential-store-password>
+    <!-- Format for the 'Secure Credential Store' (SCS).
+    The default format is JCEKS, but if a format like FIPS and a different security provider is chosen,
+    it should be ensured that all other certificates like cacerts also should be in this format -->
+    <credential-store-format></credential-store-format>
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name></account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key></account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ed732958-3801-4724-a43d-8a5cf7c48935  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Got AppDynamics config Setting from xml tag: node-name=OnpremNode2311
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  24851dad-5302-48c9-bf57-308ba1da8407  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Continuing Premain in the JVM Main Thread: Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  121d7fe9-d392-4703-a244-7c5b5dd3c7d8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Got AppDynamics config Setting from xml tag: node-name=OnpremNode2311
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3bcb9af1-5e83-48b0-91b6-7fc89fd3eef5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Agent instance is set to: OnpremNode2311
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  24dc30fa-ada8-4a1b-be12-43d48dcc8387  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Got AppDynamics config Setting from xml tag: account-access-key=************************************
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  40482a0c-b706-462e-a30e-19af493e4e3a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPhraseMaskingGroup, pattern: **************************************, agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6dc90dba-7c24-4601-ba32-cfb64c20feac  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9-](\d+\.\d+\.\d+\.\d+)[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  95b58546-9145-49fb-8396-5974e77a5633  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\w+@\w+\.\w+)[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d6535bc4-cd51-4807-b265-1b3315e862fc  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{3}-\d{2}-\d{4})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ccb4d0e8-e73e-408c-9c47-21c1a52a5ee8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{3}-\d{3}-\d{4})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6ef9b2ab-00e8-45ca-ba2f-c4f4f2098d59  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{9})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  719f7c73-dc47-40d8-922d-34b7edfee08b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{10})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  81e0887f-5c1a-4acd-a6c8-3585c3035900  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*pass.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1a38908c-ac97-49d6-bd70-7c624e4d9043  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*pass.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f9dcdc46-aa0f-4b28-bdc0-b1e85db3fb1d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*.pwd.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  43680b93-0109-4d2f-a8bd-1ef3a7f63843  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*.pwd.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  93fd2de3-d1a3-48ea-acfb-087319092d80  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*key.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  536a3894-9edf-4155-a905-4e32ae376cd6  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*key.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  94628493-b972-4ca8-9f05-82e41a4856ea  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*token.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  bd260422-e556-48f9-9095-cbe7882f2bbc  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*token.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  eb918de3-ac6a-4ebe-abd5-d1e8aeb3a978  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*name.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  62d8f320-5f93-463b-bf95-9ef7dc7b1648  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*name.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e5ea8972-0520-4901-b879-3d37cad8eca8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*address.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d3742aff-e89d-475d-b230-88a50c155198  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*address.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7001836f-8836-4899-bb54-9f03758a4046  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*user.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  13d4c5dd-2377-4a3d-a1c2-9b671392b124  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*user.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4ed9d61f-475b-481a-8992-1903276c242a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*phone.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cafcc346-0071-45a5-8d8d-b75085b135cd  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*phone.*>(.*)</, agent-masking: true, contains: <
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  581121f0-86dc-4708-b719-e146dc3be630  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Done flushing 40 premain bootstrap logging messages...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1339412a-19f0-40a2-9502-653cc1dae263  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Checking to see if we should run in production mode...which is the default...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  85def782-3657-4750-976b-2ae3aacd4b32  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Running in production mode....turning off ALL non production properties...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8f6c1ffd-2871-4b4d-8c3d-5eed792cb443  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Checking to see if we are in a Docker Container...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f38e0703-ea8a-48d1-b370-1ac5ad329190  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Does not appear we are running inside a Docker Container, but running on a bare metal OS...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1f08c86a-4206-4f03-825a-fdeda49e0b1e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Initial log file: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/logs/OnpremNode2311/mt-agent-initial-11-06-2023-03.37.16_31062.log
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3885fcbd-7aaf-45ce-9a5e-13f4c8aec8a2  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Agent host name is: ABHIGOYA-M-HCW6
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d3841b33-fb7d-4f70-b417-eab15e75b9be  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] The current application classpath is /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/bin/bootstrap.jar:/Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/bin/tomcat-juli.jar
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8c6d1935-b98c-425b-888d-e92179c33107  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] This Multi Tenant Java Agent was launched as a Dynamic Service...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8a583bb6-89e3-4e14-9fd0-404703381dea  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Java version is 11
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2ce1ef92-44c1-4779-9d19-b06805360a37  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Calling Premain...current class loader is jdk.internal.loader.ClassLoaders$AppClassLoader@3b192d32 , current thread is: Thread[Cisco-Multi-Tenant-Agent-Premain-Thread,5,main]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9c972239-5983-43d8-9c89-fe8a0fcbf7a0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Changing the current context Class Loader to jdk.internal.loader.ClassLoaders$AppClassLoader@3b192d32
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c9b8c3c4-4749-407c-968b-ed2ca09fbae6  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Current context class loader is jdk.internal.loader.ClassLoaders$AppClassLoader@3b192d32
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  39906617-e7df-47fe-84c2-f523837a110c  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Loading jars from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib into MT Class Agent Loader...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4a71ebcf-fbbd-4def-aee9-7e97258c39c9  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now adding jars from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib for class loader Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  57c807aa-0129-44cc-83ec-deb080cc7bd3  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/commons-logging-1.2.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d6e0c2aa-1d92-4131-8a7d-ae968fbd246c  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  93415750-5aef-4923-a668-56bad1c67ba0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/snakeyaml-2.0.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6641421b-4ce0-4a22-aa6d-289670f15053  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent-V9.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cb8d4ef2-bdcb-401d-bbf5-ff7b7862e743  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/httpcore-4.4.13.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f8ffddba-cbc0-4ee1-a118-9eeac223e179  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-core-2.15.0.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c185554a-468e-45a2-91d9-936dc95c09dc  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/picocontainer-2.15.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ae5d7284-a70f-48b1-aad8-28bc85e2e022  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-annotations-2.15.0.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  138c0771-b1d9-4d22-bb3a-3a17166fb1a5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-databind-2.15.0.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4183bdb1-08a4-405c-9fd2-e835b46aebb0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/commons-codec-1.15.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  25d6336c-a6c7-49d7-8bd8-a1753538d41e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/httpclient-4.5.13.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e925e3a2-7e62-46bd-b3cd-c0acbc6b152a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-dataformat-yaml-2.15.0.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ba40fd53-147e-4f65-a218-7de735c85d05  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/javassist-3.27.0-GA.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib to Multi Tenant Agent Class Loader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  843eca98-a2f3-4761-81fc-ab58c1567653  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Loaded 13 jars from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7aae7083-38f1-431f-be12-7c0b99592716  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Multi Tenant ClassLoader created, parent is jdk.internal.loader.ClassLoaders$PlatformClassLoader@40847211, load parent first: false
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  af527379-6396-4e34-a17b-6bb9a24c4735  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Created the MT Agent Class loader...MultiTenantAgentClassLoader , MT Agent Class Loader parent is jdk.internal.loader.ClassLoaders$PlatformClassLoader@40847211
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2610da7f-e1d9-44be-aef7-a9bae8b1752e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Launching the MT Agent from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1adae62e-7ef0-450a-ab78-7caf64ddbf83  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>>>>>>>>> Configuring for Java9+...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6c0d558c-16c2-40e3-b856-65ceccc3bac4  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Setting JVM permissions for the MTAgent and MTAgentV9 Modules...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1f0cb433-6d69-4cd0-85ec-d4f565a7ea81  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Premain module is unnamed module @1714ce61
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0a2486d3-2138-4cff-8ae3-e5cc39457465  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Boot module is unnamed module @2a098129
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3e6c29a6-a95b-4afd-87f1-085eecf4d617  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.base to export 2 packages to these modules [unnamed module @2a098129, unnamed module @1714ce61]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2a106278-29cb-4251-bf26-e02936cbf765  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying[unnamed module @2a098129, unnamed module @1714ce61] to be read by these modules: [module java.base]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  48ee49e4-0502-47af-a777-fefcb76332c1  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying[module java.base] to be read by these modules: [unnamed module @2a098129, unnamed module @1714ce61]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  256c38a6-d9e8-45d9-8fff-f97b8b46e9d7  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] About to load the following missing JDK Modules: 
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fc467140-f34e-4e21-bef0-312cec7aa73a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] jdk.httpserver
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  47e1956b-ca42-4a3e-b165-c465c7df76cb  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] java.sql
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  58e2d519-851b-486a-8c67-bc65b361254d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now loading Missing JDK Modules...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5e93c204-fb87-4804-bba7-0fc5a71c6cfb  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Just loaded module module jdk.httpserver
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d184c428-23e1-49e9-ae41-15307ead1a1d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Just loaded module module java.sql
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b4a3636f-6745-4d89-957f-01b21174fc2f  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.httpserver to export and open 3 packages to these modules [unnamed module @2a098129, unnamed module @1714ce61]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  76e118b0-a6f8-44be-9398-23a66656a10a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.sql to export and open 2 packages to these modules [unnamed module @2a098129, unnamed module @1714ce61]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  97738601-eeff-4830-aa33-fbf56540c60d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Done loading Missing JDK Modules...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e954c5c2-17a2-4918-b051-82ee400bd3ff  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Creating MT Agent Loader Module...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5e7f9462-0fa9-4a84-8f22-5107a19a5d3f  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] *************************** Java 9+ Adding Module MultiTenantAgentClassLoader from Class Loader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  55790af3-307a-4c8b-b385-e34277ab3179  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Creating module MultiTenantAgentClassLoader for loader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9fa284d9-e97e-4b0e-b5e6-d9d103cb3dd5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Loader class path is [Ljava.net.URL;@79650668
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b879dcfd-7422-4dd5-8eb5-0ee36b70db3c  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Number of packages in module: 161
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a710fb1f-3f6a-4a8e-b258-76b528b1e474  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Packages in mode MultiTenantAgentClassLoader: [org.picocontainer.composers, com.fasterxml.jackson.annotation, org.apache.commons.codec.cli, org.apache.http.conn.ssl, org.apache.http.impl.bootstrap, com.fasterxml.jackson.core.json, org.apache.http.util, org.apache.http.protocol, org.yaml.snakeyaml.external.biz.base64Coder, com.fasterxml.jackson.core.io.doubleparser, com.cisco.mtagent.otel, org.yaml.snakeyaml.composer, org.yaml.snakeyaml.nodes, org.apache.http.conn.params, javassist.runtime, com.fasterxml.jackson.dataformat.yaml.util, org.apache.http.impl.pool, org.apache.commons.logging.impl, com.cisco.mtagent.jmx, com.fasterxml.jackson.core.sym, org.yaml.snakeyaml.constructor, com.fasterxml.jackson.databind.introspect, org.apache.http.impl, org.yaml.snakeyaml.emitter, org.yaml.snakeyaml.serializer, com.fasterxml.jackson.core.json.async, org.apache.http.conn.socket, org.yaml.snakeyaml.internal, org.apache.http.ssl, org.picocontainer.containers, org.picocontainer.security, org.apache.http.conn, org.apache.http.impl.client, org.apache.http.conn.scheme, org.picocontainer.injectors, org.picocontainer.parameters, org.picocontainer.visitors, com.cisco.mtagent.tenant, com.fasterxml.jackson.core.filter, com.fasterxml.jackson.core.util, org.yaml.snakeyaml.error, org.picocontainer.classname, org.apache.http.pool, org.picocontainer.paranamer, com.cisco.mtagent.async, org.yaml.snakeyaml.env, org.yaml.snakeyaml, com.fasterxml.jackson.databind.exc, javassist.tools, org.yaml.snakeyaml.inspector, org.yaml.snakeyaml.parser, org.apache.http.entity, org.picocontainer.annotations, org.apache.http.annotation, com.fasterxml.jackson.databind.jsontype, com.fasterxml.jackson.databind.module, org.apache.http.auth.params, com.cisco.mtagent.v9, com.fasterxml.jackson.databind.ser.std, org.apache.commons.logging, com.fasterxml.jackson.databind.jsonschema, javassist.bytecode.stackmap, org.apache.http.params, org.apache.http.impl.conn, org.apache.http.client.utils, javassist.bytecode, com.cisco.mtagent.config, org.apache.commons.codec, org.apache.http.message, com.fasterxml.jackson.core.format, javassist.convert, org.yaml.snakeyaml.tokens, com.fasterxml.jackson.dataformat.yaml.snakeyaml.error, com.fasterxml.jackson.databind.type, com.fasterxml.jackson.core.type, com.fasterxml.jackson.databind.jdk14, com.fasterxml.jackson.databind.ext, com.fasterxml.jackson.core.io.schubfach, javassist.util.proxy, com.cisco.mtagent.exit, org.yaml.snakeyaml.comments, org.apache.http.impl.conn.tsccm, com.cisco.mtagent.entry, com.cisco.mtagent.server, org.apache.http.config, org.apache.commons.codec.net, javassist.tools.reflect, org.yaml.snakeyaml.introspector, org.picocontainer.converters, com.fasterxml.jackson.core, org.apache.http.io, org.picocontainer.references, com.fasterxml.jackson.databind.node, javassist.bytecode.analysis, org.apache.http.impl.entity, com.fasterxml.jackson.databind.util, org.apache.http.impl.execchain, org.yaml.snakeyaml.util, javassist.compiler, org.yaml.snakeyaml.resolver, org.apache.http.client.methods, javassist.scopedpool, javassist.compiler.ast, javassist, org.apache.http.cookie, org.picocontainer.adapters, com.fasterxml.jackson.databind.deser, org.apache.http.auth, com.fasterxml.jackson.databind.json, org.apache.http.cookie.params, org.apache.http.impl.io, org.apache.commons.codec.digest, org.yaml.snakeyaml.scanner, org.picocontainer.lifecycle, com.fasterxml.jackson.databind.jsonFormatVisitors, org.picocontainer.monitors, com.fasterxml.jackson.core.io, org.apache.http.client.params, org.yaml.snakeyaml.representer, javassist.bytecode.annotation, com.fasterxml.jackson.databind.ser, com.fasterxml.jackson.databind.cfg, org.yaml.snakeyaml.reader, com.cisco.mtagent.instrumentation, org.apache.http.conn.util, javassist.tools.web, org.picocontainer, org.apache.http.conn.routing, org.apache.commons.codec.language, javassist.util, com.fasterxml.jackson.core.exc, com.fasterxml.jackson.databind.deser.impl, org.apache.commons.codec.binary, org.apache.http.impl.auth, com.cisco.mtagent.utils, org.yaml.snakeyaml.events, com.fasterxml.jackson.databind, org.apache.http.client.protocol, com.fasterxml.jackson.databind.util.internal, com.fasterxml.jackson.dataformat.yaml, com.cisco.mtagent.adaptors, org.apache.commons.codec.language.bm, org.apache.http.concurrent, org.yaml.snakeyaml.extensions.compactnotation, org.picocontainer.behaviors, org.apache.http.client.config, javassist.expr, com.fasterxml.jackson.core.async, org.apache.http.client.entity, org.apache.http, com.fasterxml.jackson.databind.jsontype.impl, javassist.tools.rmi, org.apache.http.client, org.yaml.snakeyaml.external.com.google.gdata.util.common.base, com.cisco.mtagent.test, org.apache.http.impl.cookie, com.cisco.mtagent.core, com.fasterxml.jackson.databind.annotation, com.fasterxml.jackson.databind.ser.impl, com.fasterxml.jackson.databind.deser.std, com.fasterxml.jackson.core.base]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b166b0f5-4c0b-49c1-b364-a528b454b7fe  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] *************************** DONE!!! - Java 9+ Adding Module MultiTenantAgentClassLoader from Class Loader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  506ec582-08ee-489e-8e10-55ea30d1ded7  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Done creating MT Agent Loader Module...module MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cab33685-2fef-42b4-8df7-a9e55753bdbd  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Getting all of the MT Agent Modules...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1ebf7d88-22c5-4fcb-914e-39fc195215d0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] 
+Only Agent Or Tenant Modules  Module: module MultiTenantAgentClassLoader
+Module Type: Multi Tenant Agent Class Loader
+Loader: MultiTenantAgentClassLoader
+Packages: [org.apache.http.client.config, com.cisco.mtagent.entry, javassist.compiler, javassist.scopedpool, MultiTenantAgentClassLoader, org.apache.http.conn.routing, com.fasterxml.jackson.databind.ser, com.fasterxml.jackson.core.exc, org.picocontainer.injectors, com.cisco.mtagent.instrumentation, org.yaml.snakeyaml.internal, org.apache.commons.codec, org.apache.commons.codec.binary, com.fasterxml.jackson.dataformat.yaml, com.fasterxml.jackson.core.io.doubleparser, com.fasterxml.jackson.databind.ser.std, org.apache.http.config, com.fasterxml.jackson.databind.module, org.apache.commons.logging, org.picocontainer.converters, com.fasterxml.jackson.core.json, com.cisco.mtagent.tenant, com.fasterxml.jackson.annotation, org.yaml.snakeyaml.env, javassist.convert, org.yaml.snakeyaml.inspector, org.yaml.snakeyaml.serializer, org.apache.http.conn.scheme, com.fasterxml.jackson.databind.jsonFormatVisitors, org.apache.http.impl.entity, org.picocontainer, org.apache.http.impl.execchain, com.fasterxml.jackson.databind.jsonschema, org.apache.http.impl.bootstrap, com.fasterxml.jackson.databind.jdk14, org.yaml.snakeyaml.util, org.picocontainer.adapters, org.picocontainer.visitors, com.fasterxml.jackson.databind.exc, javassist, org.apache.http.client.methods, org.yaml.snakeyaml.emitter, com.fasterxml.jackson.databind.type, org.apache.http.annotation, org.apache.http.impl, com.fasterxml.jackson.databind.ext, javassist.bytecode.annotation, com.fasterxml.jackson.databind, com.cisco.mtagent.adaptors, org.yaml.snakeyaml.extensions.compactnotation, com.cisco.mtagent.config, com.fasterxml.jackson.databind.jsontype, org.picocontainer.monitors, org.apache.http.message, org.apache.http.conn.params, javassist.util, com.fasterxml.jackson.core.io, org.picocontainer.parameters, org.apache.http, org.apache.http.conn, org.apache.http.impl.pool, com.fasterxml.jackson.databind.util.internal, org.yaml.snakeyaml.events, com.fasterxml.jackson.core.format, javassist.bytecode.analysis, org.apache.http.impl.client, org.picocontainer.behaviors, javassist.util.proxy, org.apache.commons.codec.net, org.apache.http.impl.auth, org.apache.commons.codec.cli, com.fasterxml.jackson.core.type, com.cisco.mtagent.utils, org.apache.http.cookie.params, org.apache.http.ssl, com.cisco.mtagent.v9, org.apache.http.client.entity, org.apache.http.conn.util, org.apache.http.impl.cookie, org.picocontainer.references, com.fasterxml.jackson.core.async, com.cisco.mtagent.test, com.fasterxml.jackson.core.base, org.apache.http.impl.io, org.apache.commons.codec.digest, org.picocontainer.composers, org.apache.http.impl.conn.tsccm, org.yaml.snakeyaml.external.biz.base64Coder, javassist.tools.reflect, org.apache.http.entity, org.picocontainer.security, javassist.compiler.ast, com.fasterxml.jackson.databind.deser.impl, com.fasterxml.jackson.core.filter, com.fasterxml.jackson.dataformat.yaml.util, org.yaml.snakeyaml.parser, org.apache.http.conn.ssl, com.cisco.mtagent.jmx, org.apache.http.protocol, com.fasterxml.jackson.databind.cfg, com.cisco.mtagent.async, org.apache.commons.codec.language.bm, javassist.tools.rmi, com.fasterxml.jackson.databind.annotation, org.apache.http.client.utils, org.apache.http.client.params, org.yaml.snakeyaml.reader, org.yaml.snakeyaml.constructor, javassist.tools.web, com.fasterxml.jackson.core.sym, com.cisco.mtagent.exit, org.apache.http.params, org.yaml.snakeyaml.composer, org.yaml.snakeyaml.error, javassist.runtime, org.yaml.snakeyaml.comments, com.cisco.mtagent.server, org.apache.http.client.protocol, javassist.tools, com.fasterxml.jackson.dataformat.yaml.snakeyaml.error, javassist.expr, org.yaml.snakeyaml.nodes, org.apache.http.client, com.fasterxml.jackson.databind.util, org.apache.http.util, org.picocontainer.classname, org.apache.http.pool, org.apache.commons.codec.language, com.fasterxml.jackson.databind.introspect, com.fasterxml.jackson.databind.deser.std, org.apache.http.auth.params, com.fasterxml.jackson.databind.node, org.apache.http.io, org.apache.commons.logging.impl, com.fasterxml.jackson.databind.jsontype.impl, javassist.bytecode.stackmap, org.apache.http.cookie, org.apache.http.auth, org.yaml.snakeyaml, org.yaml.snakeyaml.scanner, com.fasterxml.jackson.core.io.schubfach, com.fasterxml.jackson.databind.deser, org.picocontainer.containers, org.yaml.snakeyaml.tokens, org.picocontainer.annotations, com.cisco.mtagent.otel, com.fasterxml.jackson.core, org.yaml.snakeyaml.introspector, com.fasterxml.jackson.core.json.async, javassist.bytecode, org.yaml.snakeyaml.representer, org.picocontainer.lifecycle, org.yaml.snakeyaml.external.com.google.gdata.util.common.base, com.cisco.mtagent.core, com.fasterxml.jackson.core.util, org.picocontainer.paranamer, org.apache.http.concurrent, com.fasterxml.jackson.databind.json, org.apache.http.impl.conn, com.fasterxml.jackson.databind.ser.impl, org.apache.http.conn.socket, org.yaml.snakeyaml.resolver]
+Layer: null
+Descriptor: module { name: MultiTenantAgentClassLoader, [mandated java.base], exports: [MultiTenantAgentClassLoader] }
+
+
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2b0ca130-559b-425e-89bd-3492bd8dedb3  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Getting all of the Known Modules by reviewing all loaded classes...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c03bb315-8a23-4f1e-8963-18d5695858d3  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying[unnamed module @2a098129] to be read by these modules: [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f70fd243-327d-4e82-a06a-91d80d87cf78  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module MultiTenantAgentClassLoader to export and open 162 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  db491745-97d5-4929-a704-1726ab642a00  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying[unnamed module @1714ce61] to be read by these modules: [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  99fa8f68-9898-477f-bceb-9681d413a40e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module MultiTenantAgentClassLoader to export 162 packages to these modules [unnamed module @1714ce61]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fcfc2f11-93c4-44de-9627-fc9c4414044e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Setting Agent Module module MultiTenantAgentClassLoader to read ALL modules ([module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr])...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  802a4fc0-fd83-4f24-8a16-8ab2ad08e837  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying[module MultiTenantAgentClassLoader] to be read by these modules: [module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9cc6b610-ce1e-4b7a-b808-dbd8851ce906  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Exporting and Opening ALL ([module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr]) modules to my Agent Module module MultiTenantAgentClassLoader...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  84187a6e-2311-4924-9a4b-f2640e76e34b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.accessibility to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7abe72db-c57b-40dc-8cf9-f78e42d3dcc1  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.naming.dns to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3f7249b9-658c-4eea-9103-01bb2742f5e5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jdi to export and open 9 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2a612da6-d046-4c99-9776-63c4f75f9d6e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.proxy2 to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7e3f8047-2661-4f95-8fd0-a9b1a78d43c5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jdeps to export and open 8 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  22413262-6d64-4c4f-86e1-b1232946f6f8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jconsole to export and open 4 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e01dc00a-44ce-4bee-a3e2-bddb0e8631cf  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.logging to export and open 4 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0b4779c4-64c7-464b-9d13-1a208f256551  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jfr to export and open 14 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  298236c6-552e-46fc-a981-4b32518abac0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.security.sasl to export and open 5 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9224f399-cf46-4e99-a1e7-545201417368  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.javadoc to export and open 22 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  06b5935e-1811-4759-9b5c-ad45e11b3792  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module com.appdynamics.appagent to export and open 1312 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ba98e4ed-0f78-4657-b0b0-38a3c7095464  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jstatd to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9a3b33fe-110a-4b5e-bfa7-137d9f52a2e8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.instrument to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e09c081a-fdff-4686-a711-b405fb0f4184  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @13b8929 to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  094f7df0-317d-4a92-9a49-142e7b73c881  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.smartcardio to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2799ac56-c408-4f0b-b3ec-c1a0050b976a  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.internal.le to export and open 9 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  35c5f442-96db-43af-a32d-5e15f2b7a073  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.datatransfer to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  243dd5c5-f9fc-40ae-bae1-5d6e5427b6fc  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.proxy1 to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  28f1cc31-2921-4fb9-b5cc-e153bad7c9b6  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.dynalink to export and open 6 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  68bada2b-69b2-40e3-b569-9fdee590bddf  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.naming to export and open 16 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  679d10b3-8d67-4fe9-b92f-bda0aaa2211e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.net.http to export and open 6 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dd90bc43-5289-4a61-9174-61296d5b0388  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @2a098129 to export and open 257 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5a9c52f4-8125-4cb0-ad12-0003ad7a0f38  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.httpserver to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6514d1a8-f52e-480b-90e7-7a77e36cac36  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.compiler to export and open 32 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c32588fe-a0ed-42af-9ad4-06aa0763bad0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.rmi to export and open 15 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0f7ad77b-b16c-4996-a088-c52f403ba1d8  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.zipfs to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a6ad5045-7b32-4bee-b209-4280121ab898  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.management.agent to export and open 5 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c94ddc0e-383b-463b-aed5-97cd92789825  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.xml to export and open 104 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7324a9bf-1897-42f9-b468-2b27c03323f0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.crypto.cryptoki to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  bc917385-42e3-4739-883c-9b173c88fdbb  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.security.jgss to export and open 17 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  143dc372-4feb-4579-854c-2f2b06d79597  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @150934bf to export and open 650 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a5b78290-8bfc-473f-b12d-0162ffb91bd2  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @64d7f7e0 to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5ee2782d-fea5-48a0-9574-c80c2b500fa5  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.net to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  616a468e-441c-4e36-b3ae-f9ff0d4f95ee  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.xml.dom to export and open 4 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0882bb53-047a-45bc-8c0d-aaf13fc14deb  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.internal.ed to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8e8063d4-d7e3-4f0a-9bcf-99bf9344449b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.scripting.nashorn to export and open 33 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  15a1c551-cef2-48e8-b8e7-9e1644abef34  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.unsupported to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  88200c04-4cd7-43db-9851-3e1d3d6f9bde  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.attach to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  07f0c0f6-995f-4498-9ba5-c04023a8fcc4  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module MultiTenantAgentClassLoader to export and open 162 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0dcc4c99-52c8-4be8-948d-33c628e94cfb  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.desktop to export and open 128 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f0e3726c-884d-43b7-a188-def5fe16a2b1  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jartool to export and open 5 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fcf587b2-ddb1-4359-bfdb-e1f7dd4fbb16  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.internal.jvmstat to export and open 9 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3b1d821e-314e-47e9-828b-65202cb776fe  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.base to export and open 164 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  872e0274-23ce-4d6b-9486-567e24b43f9f  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module com.azul.tooling to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  adfc01a9-d3a9-46ae-b72a-432fb6bef826  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.internal.opt to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  45fe4978-524c-41bd-98c4-0aae622ef20b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jlink to export and open 10 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8ab97ddd-5feb-4bf4-9688-8cb95a71b8ce  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.compiler to export and open 6 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3d24e466-96f7-402e-9150-61f4fb582d78  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.editpad to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  383c271b-e074-4de5-b1aa-a7c592f3f45c  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.sctp to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  28d8f0d0-0b4a-4c63-8863-eac769d1be66  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.scripting to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7eb32007-fc10-44c6-ac28-795162aefc46  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jshell to export and open 9 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f42a4394-2260-4c90-ac2e-38f7568ccdf6  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jdwp.agent to export and open 0 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  091b04e6-94dc-426a-ad78-cb5ada77c21c  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.management to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6f9e397a-b06a-4932-8bdb-8d4d166c7b47  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.unsupported.desktop to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  44ddbd20-d860-4c94-8db6-dafc143b191d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.security.auth to export and open 4 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2119857d-e716-4d9c-9884-15e04f784345  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.security.jgss to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  856127df-d884-4723-8ca7-2fe4139b217f  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.sql.rowset to export and open 6 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  86f0ab61-bb86-4fc9-af74-9b6c11766d53  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.management to export and open 19 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4d851f62-f24b-4dcb-8eeb-6bbddbc80c7d  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.naming.ldap to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1392fbf6-311b-4640-8cd5-dfddba131744  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.charsets to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b3f975d2-153f-44b9-88ef-f1663b04026e  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module com.azul.crs.client to export and open 11 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  66144271-baf8-47e4-bb17-7345f6b56539  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @c86b9e3 to export and open 64 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  08457ffb-95af-4d9b-960f-9f7b88473906  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @1aeadf0c to export and open 29 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  145e8e39-715e-47dd-b677-4394444d8a1b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @1ca06c48 to export and open 230 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7237801b-6e65-481f-bc13-d9d685dbb105  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.localedata to export and open 6 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f6a9dbc2-f970-4591-b58e-5ca0f8d40740  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.naming.rmi to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d46b53ac-5080-44e2-87e9-bd79cf58e1c2  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.jsobject to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  36cbd61a-f24b-4c1b-a48a-bd56f46457d9  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.sql to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a407f3b2-1dbc-43e7-91ee-baffe6ff2573  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.transaction.xa to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  caf85ca5-c8f9-44c3-815c-95860bebc534  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @3d63538f to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c6776750-e27a-4996-ac88-9769abac7903  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.crypto.ec to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9cab91f6-d4f7-43e7-b449-c3680f64f09b  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @1714ce61 to export and open 8 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  10895770-69c1-4a75-ab29-06b373c5b344  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @49e29897 to export and open 19 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5b598566-be49-4762-865a-b2fa5c7a4198  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.xml.crypto to export and open 34 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b8d48ece-bb2a-4cba-8194-4447115be847  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.management.rmi to export and open 3 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  85c42a9e-f9fb-429c-83a7-3dc6fe2e00c9  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.prefs to export and open 1 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  99c06de5-6076-47f8-b120-b0c5d0d1b9f1  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module jdk.management.jfr to export and open 2 packages to these modules [module MultiTenantAgentClassLoader]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e1aae3b7-8cd0-4d20-a5a0-63f95a2319f9  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Opening and Exporting all AppDynamics Agent Modules ([unnamed module @2a098129, unnamed module @49e29897, unnamed module @150934bf, unnamed module @1aeadf0c, unnamed module @64d7f7e0, module com.appdynamics.appagent]) to these Modules ([unnamed module @2a098129])
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2ef8c108-df71-488f-bb82-85113f0c366f  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @2a098129 to export and open 257 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e27ce601-e7a7-46c7-b7e3-c18cf38e97d0  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @49e29897 to export and open 19 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  31943f5c-d689-4fae-a4dd-e100e86e3192  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @150934bf to export and open 650 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  72167080-ee25-4c4d-83e7-c88e3d7a2088  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @1aeadf0c to export and open 29 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  18d91f71-bfdd-4bce-beb0-f26dc0101cb4  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying unnamed module @64d7f7e0 to export and open 2 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  146b036a-7889-454b-87ba-6855c26af5f6  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module com.appdynamics.appagent to export and open 1312 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5c95acd7-5c68-4d7b-bce2-e0228802ae21  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.base to export and open 1 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b10f6af2-453a-4f2c-9d44-86c9da2ee766  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] >>> Modifying module java.base to export and open 1 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c294963d-266f-4dad-9f55-6d6e031eec67  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Done with V9 module bootstrapping...current known module set is: 
+[module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr]
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8830f8db-9a29-4b5b-817d-0fffc85fec90  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Bootstrapping the Agent Pico Container com.cisco.mtagent.core.AgentPicoContainer@55ad561f , loaded in loader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e5283b68-78a3-4b45-90bd-f790478703ce  [Thread=Cisco-Multi-Tenant-Agent-Premain-Thread] Now Bootstrapping the Multi Tenant Agent in Premain, will wait a maximum of 60 seconds for completion, during this time the application thread will be blocked
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  12260cfc-8ef1-41e5-b227-3c7e47a6b296  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.utils.JMXUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  741f2d31-d126-4071-9131-0b184f012edb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.instrumentation.MethodEntryAndExit
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a8cc92f9-3f2c-4c96-9979-66f5f7985f09  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.registry.TenantRegistry
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  29464a1b-1f91-46eb-8284-56383fab1f75  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.instrumentation.SpecializedInstrumentationHelper
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d1d7df18-a63e-4e3c-a3dc-7f90a5712d35  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.SpecializedInstrumentation
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  955ff54f-e035-4294-bd49-16619e939eb9  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.registry.MethodHandlerRegistry
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  946ccf62-1d11-42f5-8471-83cac71fe98c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.reflection.ReflectionUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1b7a9b8b-c308-43fe-988b-24c0ed7556f1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.reflection.ReflectionChainUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8bf9373c-09fc-411c-8733-57a13c99a18f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.utils.BootUtilsV9
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a26a8883-ab67-45ad-9cfd-090d7526a089  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.utils.BootUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6277c681-efc2-451d-87c5-615cf32bee07  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.utils.EncryptUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  22404499-5621-4a25-8e44-eb98076676bf  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.boot.utils.EncodeUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fc196c59-9754-45bc-a077-2edf6f870cc5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.GeneralUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5095e439-fa38-45a0-bd00-521e91f1f4d1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.HTMLUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dc65c7a0-98e8-4a82-b848-7ae71a356092  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.YAMLUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d22b34e7-6f71-4026-863c-c6ea2c297463  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.NetworkUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1ee6abf8-c4cf-47d7-86c0-94f1dff456f1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.DiagnosticUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f0008b3d-5964-4a5c-bf2e-141aa2e65650  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.MatchUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  efbfca88-6d10-4f56-964d-b4a53224655a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.ClassUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  66982ea8-38f8-4144-a242-aae2fb25ee21  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.utils.AnnotationUtils
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  31d6e156-ce03-4e74-a539-8558331f8c1f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.server.DiagnosticsServer
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a3c48b75-6eaf-4867-aaa6-1143481b116b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.jmx.AgentMBean
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f5a0fdf9-3276-43de-b152-c8e34f0e0219  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.exit.AgentShutdown
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5e7adc12-92cf-49b0-8e9b-de0863014e0d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentationMetrics
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fac765d3-c022-45ba-b5dc-bd57242fa0d9  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentationTransforms
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  eebee48a-3507-4068-b026-3f836521072e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentMethod
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1859b592-6d1b-413f-a45d-e08fc2dff83d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentClassReview
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c814f67c-f054-4983-a077-e2ad0c9b4146  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentClassCandidate
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d310abe3-7477-4cd4-b0ec-6a592b38cdb2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.instrumentation.InstrumentationBootstrap
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  904e7e84-2e90-49ba-b52d-a953105e2b56  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.config.AgentConfiguration
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  24e34d8f-a8c6-4516-a771-08354a0ee293  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.async.AsynchCorrelationTracking
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  90ea75b5-19ff-4d57-9767-60ec0f722457  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4a1140c7-9590-40f3-a38d-53910ecde4e2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.otel.TraceTracking
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  04c727a8-52c1-4950-bbd5-499de8665936  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Multi-Tenant Agent PicoContainer (Dependency Injection) for class com.cisco.mtagent.otel.TraceHistory
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3405c690-1def-4cc2-9b74-e402b6a67300  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Successfully set the Boot Pico Container Method in the Controller...
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  70cc2cc5-5b45-4145-b48f-d97aec87358c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Configuring the Multi Tenant Agent from config file: mtAgentConfig.yml
+INFO  2023-11-06T15:37:16+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0e42b3db-0fbe-438a-8cbd-5f2b6493b3d8  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Reading Multi-Tenant Agent configuration file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/mtAgentConfig.yml:
+agent-instrumentation-properties:
+  preloadClasses:
+  noTransformClass: com.cisco.mtagent,com.cisco.argento,com.singularity,com.appdynamics
+  noTransformLoaderClassName: com.cisco.mtagent,com.cisco.argento,com.singularity,com.appdynamics
+  noOsgiBootDelegationSet: was.install.root
+  noTransformThreadName:
+  classReviewInterval: 10
+  # Instrument Anonymous Classes - this is Experimental
+  useAnonymousClassTransform: false
+  trackReviewedClasses: false
+  # Force an immediate retransform to get Class Object - this is Experimental
+  useInitialTransform: false
+  showJMX: false
+  # Clear ctClassCache after 3 minutes
+  ctClassCacheClearSeconds: 180
+
+agent-misc-settings:
+  sslProtocol: TLSV1.2
+  version: 23.7.0-1103
+
+
+agent-logging:
+  initialMaxLogSize: 2000000
+  maxLogSize: 1000000
+  maxLogs: 10
+  maxLogMsgsPerSecond: 100
+  maxLoggingQueueSize: 1000
+  showDecryptedFiles: true
+  useLocking: false
+  # Need double slash for escaping
+  agent-masking-pii-list-default:
+
+agent-reflection-list:
+
+
+#ENCRYPT
+
+
+agent-internal-handlers:
+  #
+  # Async Instrumentation - all disabled right now
+  #
+    - class: java.lang.Runnable
+      method: run
+      handler: com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+      interface: true
+      excludeclass: java.util.concurrent.ThreadPoolExecutor$Worker,java.lang.Thread,java.util.concurrent.FutureTask
+      active: false
+
+    - class: java.util.concurrent.Callable
+      method: call
+      handler: com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+      interface: true
+      excludeclass: java.util.concurrent.Executors$RunnableAdapter
+      active: false
+
+    - class: java.lang.Thread
+      method: start
+      handler: com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+      active: false
+
+    - class: java.util.concurrent.ThreadPoolExecutor
+      method: execute
+      handler: com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+      interface: true
+      active: false
+
+    - class: java.util.concurrent.AbstractExecutorService
+      method: submit
+      handler: com.cisco.mtagent.async.AsynchCorrelationInternalHandler
+      interface: true
+      active: false
+
+  #
+  # Proxy and Delegate
+  #
+
+    - proxy: true
+      handler: com.cisco.mtagent.instrumentation.InstrumentationClassLoadingProxyInternalHandler
+      active: true
+
+
+  #
+  # OTEL Instrumentation
+  #
+
+    - class: io.opentelemetry.api.trace.Span
+      method: end
+      handler: com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler
+      interface: true
+      catch: false
+      exit: false
+      condition: multi.tenant.agent.allow.otel.instrumentation
+
+    - class:  io.opentelemetry.javaagent.shaded.io.opentelemetry.api.trace.Span
+      method:  end
+      handler: com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler
+      interface: true
+      catch: false
+      exit: false
+      condition: multi.tenant.agent.allow.otel.instrumentation
+
+    - class: io.opentelemetry.api.trace.Span
+      method: startSpan
+      handler: com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler
+      interface: true
+      catch: false
+      entry: false
+      condition: multi.tenant.agent.allow.otel.instrumentation
+
+    - class:  io.opentelemetry.javaagent.shaded.io.opentelemetry.api.trace.Span
+      method:  startSpan
+      handler: com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler
+      interface: true
+      catch: false
+      entry: false
+      condition: multi.tenant.agent.allow.otel.instrumentation
+
+
+#END-ENCRYPTION
+
+load-java-agent:
+    - jar: ../../oss-java-agent/opentelemetry-javaagent.jar
+      properties: -Dotel.resource.attributes=service.name=***************** -Dotel.traces.exporter=zipkin -Dotel.exporter.zipkin.endpoint=http://localhost:9411/api/v2/spans
+      condition: multi.tenant.agent.launch.oss.agent
+
+
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d66807aa-46e2-45d5-8bd5-e4f6a0faaab1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Multi Tenant Agent Version found is 23.7.0-1103
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  519eb5c4-5102-421b-8246-16046de777e7  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Decrypted configuration file mtAgentConfig.yml===> 
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3e659788-590d-46da-a49b-a677dd949ff4  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Thread Cisco-Multi-Tenant-Agent-Launch-Logging-Throttling is currently waiting for the Agent to be started...Launch Logging Throttling Thread...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e1a3f4a4-ad67-4f80-888e-a13c085fe956  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Will NOT show instrumentation via JMX...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1cf05823-3ff3-46f0-953c-7dddcd13b6ed  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Note that the current boot delegation property is set to null
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b94fb4ab-466d-4bf7-aed3-4349cb0e215e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Is Dynamic Service, so relying on APM Agent setting for com.singularity.*, will use alternative com.singularity package boot class - com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  69330aea-7e35-412c-a488-561734a9a9e7  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Using singularity boot class for entry: com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy.methodEntryControl($INSTANCE$,$GETCLASS$,$args,"$CLASS$","$METHOD$","$SIGNATURE$","$ID$","$INSTRUMENTATIONID$");
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3cc5087c-fffc-497c-9621-57b30b64da4c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Using singularity boot class for exit: Object returnObj=($w)$_ ; com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy.methodExitControl(returnObj,null,$INSTANCE$,$GETCLASS$,$args,"$CLASS$","$METHOD$","$SIGNATURE$","$ID$","$INSTRUMENTATIONID$");
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ecf90b8a-b581-4307-9cc0-c87af4b4f885  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Using singularity boot class for exit throwable: com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy.methodExitControl(null,$e,$INSTANCE$,$GETCLASS$,$args,"$CLASS$","$METHOD$","$SIGNATURE$","$ID$","$INSTRUMENTATIONID$");
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a6ae2919-0866-4a70-b2bf-7868fc2d8c34  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Checking the instrumentation boot class (com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy) to confirm we have access...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  87970977-0a1e-4cdc-96b5-f176b9b5b724  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] All is well with the instrumentation boot class com.singularity.mtagent.boot.instrumentation.MethodEntryAndExitOSGIProxy
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a47c2a34-aa00-45ce-95e6-ea057d959d2f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {proxy=true, handler=com.cisco.mtagent.instrumentation.InstrumentationClassLoadingProxyInternalHandler, active=true}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  61dee72f-e915-4dc7-8238-278f48135c6a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from a handler configuration file: id: 1 number: 1 class: noclass method: nomethod signature: *
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4a7b7b32-8e08-4061-819b-71ded742e065  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loading com.cisco.mtagent.instrumentation.InstrumentationClassLoadingProxyInternalHandler from Tenant MT-Agent-Internal-Tenant into Classloader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4b7e6934-f902-41ce-aee5-dfd07549b913  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Just loaded and Initted Handler com.cisco.mtagent.instrumentation.InstrumentationClassLoadingProxyInternalHandler into Classloader MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  924fac51-f7b6-4231-b6ac-ed572c81e6bb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] NOTE: Setting a Class Loading Proxy Internal Handler Name: null  , Tenant: MT-Agent-Internal-Tenant  , Home: null  , EntryCalls: 0  , ExitCalls: 0
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dd8cca9f-1a56-42ef-b60c-eb24e30ffae2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {class=io.opentelemetry.api.trace.Span, method=end, handler=com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler, interface=true, catch=false, exit=false, condition=multi.tenant.agent.allow.otel.instrumentation}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  55668626-9c6f-454b-bd58-967ed6b34a37  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {class=io.opentelemetry.javaagent.shaded.io.opentelemetry.api.trace.Span, method=end, handler=com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler, interface=true, catch=false, exit=false, condition=multi.tenant.agent.allow.otel.instrumentation}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  41f7a02f-c998-4f4a-aa4f-2398629324ea  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {class=io.opentelemetry.api.trace.Span, method=startSpan, handler=com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler, interface=true, catch=false, entry=false, condition=multi.tenant.agent.allow.otel.instrumentation}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c7c51c8e-6c96-469e-9063-402956d96374  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {class=io.opentelemetry.javaagent.shaded.io.opentelemetry.api.trace.Span, method=startSpan, handler=com.cisco.mtagent.instrumentation.InstrumentationOTELInternalHandler, interface=true, catch=false, entry=false, condition=multi.tenant.agent.allow.otel.instrumentation}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c6588364-8e92-49ce-960e-3135227508a7  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Looking for Tenants at /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fc2208ab-dc9b-41b8-b407-d4d569cdf2c1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Now adding jars from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib for class loader Tenant Class Loader for argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  551fbae3-1086-4a14-b9ab-84a08ce30096  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding jar /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib/argento-tenant.jar from directory /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib to Tenant Class Loader for argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8ab9ae88-387c-480c-8cc7-57afcae888e9  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loaded 1 jars from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4e0740e1-2082-4e77-ad8a-d3c6c00305f2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding file:/Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib/argento-tenant.jar to the argento Tenant Loader classpath...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  20a2c6f4-ad54-4afd-bc83-c05708121b65  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Created Tenant Class loader TenantClassLoader-argento(com.cisco.mtagent.boot.Controller$TenantClassLoader:5dd10ac:26c3af67) for tenant argento, loading 1 handler jars,  tenant parent is MultiTenantAgentClassLoader
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b57ae1e5-3812-40a0-941e-d0c420587ac0  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] *************************** Java 9+ Adding Module TenantClassLoader_argento from Class Loader TenantClassLoader-argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d491c5e3-6b39-4f15-81f0-ca75e026b1e4  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating module TenantClassLoader_argento for loader TenantClassLoader-argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  24f82799-3122-478b-a224-2b82a58e2d42  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loader class path is [Ljava.net.URL;@15d6d8a5
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  116e3367-a9ce-44a4-9b30-76c587fa6449  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Number of packages in module: 15
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  74f66ff6-df09-42e5-a185-a22c56bf32f9  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Packages in mode TenantClassLoader_argento: [com.cisco.argento.securitymanager, com.cisco.argento.server, com.cisco.argento.management, com.cisco.argento.utils, com.cisco.argento.transport, com.cisco.argento.events.test, com.cisco.argento.core, com.cisco.argento.events.learning, com.cisco.argento.loadhandlers, com.cisco.argento.events, com.cisco.argento.events.process, com.cisco.argento.sdk, com.cisco.argento.events.reports, com.cisco.argento.methodhandlers, com.cisco.argento.vulnerabilities]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b71affe9-ba74-4d4b-8879-793337486b08  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying[unnamed module @2a098129] to be read by these modules: [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0f474176-5811-474a-ac64-9d006686edcc  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module TenantClassLoader_argento to export and open 16 packages to these modules [unnamed module @2a098129]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c7b5fbc3-40c9-46e8-9886-0dea7cc96253  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying[unnamed module @1714ce61] to be read by these modules: [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3008ba9b-70e7-48d6-a677-ab8bb5c32382  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module TenantClassLoader_argento to export 16 packages to these modules [unnamed module @1714ce61]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e9e7ddaf-74ee-4e57-a928-01bcf92c888b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying[module MultiTenantAgentClassLoader, module TenantClassLoader_argento] to be read by these modules: [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0326e97a-63f1-473e-b3e5-6c72bd975247  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module TenantClassLoader_argento to export and open 16 packages to these modules [module MultiTenantAgentClassLoader, module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cb012ad8-30f7-4883-8892-dcacd0a678a9  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Setting Agent Module module TenantClassLoader_argento to read ALL modules ([module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, module TenantClassLoader_argento, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr])...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  bf1dd5df-443b-4033-842a-1ca16d5c9576  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying[module TenantClassLoader_argento] to be read by these modules: [module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, module TenantClassLoader_argento, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cd4e160d-5bf8-400e-b8ed-f15096a99b15  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Exporting and Opening ALL ([module jdk.accessibility, module jdk.naming.dns, module jdk.jdi, module jdk.proxy2, module jdk.jdeps, module jdk.jconsole, module java.logging, module jdk.jfr, module java.security.sasl, module jdk.javadoc, module com.appdynamics.appagent, module jdk.jstatd, module java.instrument, unnamed module @13b8929, module java.smartcardio, module jdk.internal.le, module java.datatransfer, module jdk.proxy1, module jdk.dynalink, module java.naming, module java.net.http, unnamed module @2a098129, module jdk.httpserver, module jdk.compiler, module java.rmi, module jdk.zipfs, module jdk.management.agent, module java.xml, module jdk.crypto.cryptoki, module java.security.jgss, unnamed module @150934bf, unnamed module @64d7f7e0, module jdk.net, module jdk.xml.dom, module jdk.internal.ed, module jdk.scripting.nashorn, module jdk.unsupported, module jdk.attach, module MultiTenantAgentClassLoader, module java.desktop, module jdk.jartool, module jdk.internal.jvmstat, module java.base, module com.azul.tooling, module jdk.internal.opt, module jdk.jlink, module java.compiler, module jdk.editpad, module jdk.sctp, module java.scripting, module jdk.jshell, module jdk.jdwp.agent, module jdk.management, module jdk.unsupported.desktop, module jdk.security.auth, module jdk.security.jgss, module java.sql.rowset, module java.management, module jdk.naming.ldap, module jdk.charsets, module com.azul.crs.client, unnamed module @c86b9e3, unnamed module @1aeadf0c, unnamed module @1ca06c48, module jdk.localedata, module jdk.naming.rmi, module jdk.jsobject, module java.sql, module java.transaction.xa, unnamed module @3d63538f, module jdk.crypto.ec, module TenantClassLoader_argento, unnamed module @1714ce61, unnamed module @49e29897, module java.xml.crypto, module java.management.rmi, module java.prefs, module jdk.management.jfr]) modules to my Agent Module module TenantClassLoader_argento...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  21b8db02-624e-49c9-ba1f-6c0a76a6d0a1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.accessibility to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b4b74b1c-ea34-4d86-b403-f94ee65999e8  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.naming.dns to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b18ba1cf-f1cf-42b7-b5d6-8ba4dd27fdb0  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jdi to export and open 9 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d9557d26-bd6f-4777-877e-638017eeec06  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.proxy2 to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2ef4c1d6-1e7a-4f6a-89ea-f3452f6203d8  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jdeps to export and open 8 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  901ffa1f-627f-47d8-8079-cd4f2e9efa1e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jconsole to export and open 4 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b375c3d7-8b05-4410-8cf2-327db4f5d6e8  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.logging to export and open 4 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  07c234a8-26ca-4af7-b2ec-ab708d9e7814  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jfr to export and open 14 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  69783199-c24e-4fef-a697-235e16f252f2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.security.sasl to export and open 5 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5670f5fc-71c5-43f9-a443-749d06d5df84  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.javadoc to export and open 22 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  babd3413-119b-4bf4-b41f-05db83b52c13  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module com.appdynamics.appagent to export and open 1312 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f2d36492-d21f-41a0-9a91-9ccd76eae6ed  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jstatd to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8ff08feb-b948-4121-9c85-c2bdd06f7507  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.instrument to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d8291fee-4aba-46f1-b179-ef9f55035f21  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @13b8929 to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1bfe471a-0273-46b5-a69a-5a5e55d06b43  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.smartcardio to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  939614c0-5442-4ef1-87da-13026bdac85f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.internal.le to export and open 9 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7524011a-d9c1-44e4-9d51-d82599854e63  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.datatransfer to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  01ece6f0-1fa8-47aa-ad5d-4242f03d2834  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.proxy1 to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5ce461c2-ccc4-4e62-b10a-79ae0ab15eee  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.dynalink to export and open 6 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f74446e1-baf5-4662-8629-e1d2edb15e04  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.naming to export and open 16 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  73fae358-6c29-40e8-96cd-3adc03daba36  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.net.http to export and open 6 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  da87160a-cd64-4447-a3b3-367d5d73f7db  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @2a098129 to export and open 260 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0939ea36-8408-4552-b52f-49d688f41a6e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.httpserver to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1e82b03f-72f4-4b1f-a1a0-580100e459e0  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.compiler to export and open 32 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5ccd8ea5-b457-4d19-9e92-46c604e3d3f0  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.rmi to export and open 15 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  37d1a519-07d4-407f-b14a-fdcf078c62f5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.zipfs to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  16e8dcc9-8778-43d7-834a-93af93e74656  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.management.agent to export and open 5 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1ced9e8c-7806-4eb9-8a1c-85e661694bc1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.xml to export and open 104 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  15d6bb8f-5575-4ac3-961f-2ac5eafa764f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.crypto.cryptoki to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0c6ea2ae-9119-4f6d-8d4c-7625289b4c6a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.security.jgss to export and open 17 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6aa293b0-1ff1-49b9-aba6-271eb1c96fea  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @150934bf to export and open 650 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e39502d0-df29-43b6-be8b-f39da2492b9d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @64d7f7e0 to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5fb393e0-0860-4a53-8b5a-42aaac1dba51  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.net to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c0d32f91-7827-4297-ad68-66a3abd69f32  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.xml.dom to export and open 4 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fa0fee09-5c95-42fd-bd13-bde2e7d3e146  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.internal.ed to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c39f0e83-ebae-4970-bf84-50a096624e56  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.scripting.nashorn to export and open 33 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cda87ddc-f051-4e5e-aef5-2386a49eac1c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.unsupported to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3d042a48-5317-4b6b-8ba7-23c667fd7190  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.attach to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a900b1f3-2750-4da0-a851-55ab352a51e6  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module MultiTenantAgentClassLoader to export and open 162 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9acedc00-80a3-46b5-9caf-8789cf6b5a5f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.desktop to export and open 128 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c39a1556-8d55-4b26-8c31-c08651df13aa  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jartool to export and open 5 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0cdc785a-1278-45de-9851-44606b92d3cf  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.internal.jvmstat to export and open 9 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6e9eb227-8317-43ba-a226-ff0e31a8bbef  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.base to export and open 164 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6f12d91a-e1e2-4fb6-965d-7fdd75b8d48a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module com.azul.tooling to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c26d9ab1-ea1d-4e6d-b93a-6b1d33ac134d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.internal.opt to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e643d1dc-c9d1-4ea5-9d51-0b07e55bc223  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jlink to export and open 10 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d7b0c19a-978f-4971-83be-d82044863bef  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.compiler to export and open 6 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fdbb7a62-00e3-4699-9f48-f4ab454ac4ae  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.editpad to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  f40cc443-d946-4c7e-8592-b45d8c0ecf76  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.sctp to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3daea542-8d4b-4121-9bc8-7088129993cb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.scripting to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b346e3d3-a93b-41f5-9056-1c80a509bfb4  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jshell to export and open 9 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3131f20b-1449-4639-95d1-f74af6af2714  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jdwp.agent to export and open 0 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  27e6bf53-24f4-47b0-b1a0-6dca6c48fa7e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.management to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b0ae9ddf-5ddb-47bd-9153-c69d55c23d38  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.unsupported.desktop to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cc209ff9-3e0c-4c11-acee-36263d7c090b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.security.auth to export and open 4 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  bfe46ac2-e417-4b1f-b89c-1692c3866357  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.security.jgss to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  37763b27-941f-400a-b559-72065008039d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.sql.rowset to export and open 6 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  0d67a289-e15f-4a10-b916-5e3967114322  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.management to export and open 19 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7745874c-9c67-4af0-9bfa-208bea363b94  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.naming.ldap to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7b272ded-5be5-45ca-b13d-1dd33d27c4e5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.charsets to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b82804ec-22fb-4c15-ad7d-546f0e18b04a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module com.azul.crs.client to export and open 11 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4bd81d27-7926-46c4-9097-493c50ce44ef  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @c86b9e3 to export and open 64 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a025d036-d273-4927-a03c-0f5900f57085  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @1aeadf0c to export and open 29 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  50f837bf-69e7-4be6-b746-7e819896a423  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @1ca06c48 to export and open 254 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9f4c9cab-999d-48e0-b2f2-8e5fd6e1f390  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.localedata to export and open 6 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4cc71b24-c3f6-4af7-bb80-bebe7dd4ff2d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.naming.rmi to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a61a1e49-30e4-4332-9453-4f3ff4cb8251  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.jsobject to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ce2223fb-c1de-416b-a495-d260dcaf352c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.sql to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6c9c545a-3b30-4c32-ab20-e89fceaf0fa5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.transaction.xa to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  94a75790-b8d2-42f1-a67a-75b7c90d8607  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @3d63538f to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  68e9179d-d0e8-491e-a566-bb87a3cbf6e1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.crypto.ec to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e41a4f28-6324-4ca3-aed8-0910975dabbf  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module TenantClassLoader_argento to export and open 16 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  db8e24bd-3b72-4e10-9e16-984fb8f51430  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @1714ce61 to export and open 8 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  40079f5f-4682-4ff2-a333-91811b292b74  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying unnamed module @49e29897 to export and open 20 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5a3a6856-61ea-4c13-b423-8d0e46aa6118  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.xml.crypto to export and open 34 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  be1d0f69-bab7-4c10-9417-20091931e5e3  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.management.rmi to export and open 3 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  95742aad-3369-410e-84f3-8de486b02510  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module java.prefs to export and open 1 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  643a6a00-3740-4151-9b36-070d04626ff1  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Modifying module jdk.management.jfr to export and open 2 packages to these modules [module TenantClassLoader_argento]
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  35f0ed26-4e03-4af7-88cf-ad963093f73a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Added module TenantClassLoader_argento for Tenant Class Loader TenantClassLoader-argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  257fae53-a889-41dc-a71a-9c6757448cc2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] *************************** DONE!!! - Java 9+ Adding Module TenantClassLoader_argento from Class Loader TenantClassLoader-argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  07ecd7a5-27bb-41c0-bf3a-0c296125b3f8  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding Tenant argento located at /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5050ffd5-75fe-40f7-b838-b5757996a6df  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Discovered and created 1 Agent Tenants 
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2816851e-5a36-4246-b7b6-0c561fa97956  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Now loading Tenant configuration file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/tenantConfig.yml for tenant argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  137e92ff-d593-4100-bbc4-427644cc5a4c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Reading Tenant argento configuration file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/tenantConfig.yml:
+tenant-instrumentation:
+
+  #ENCRYPT
+
+  #
+  # This is the core instrumentation out of the box
+  #
+
+  - handler: com.cisco.argento.loadhandlers.BootstrapLoadHandler
+    load: true
+
+  - handler: com.cisco.argento.loadhandlers.SecurityManagerLoadHandler
+    load: true
+
+  - class: java.lang.SecurityManager
+    method: checkPermission
+    handler: com.cisco.argento.methodhandlers.SecurityManagerMethodHandler
+    condition: java.security.manager,argento.use.security.manager.handler
+
+  - class: java.lang.System
+    method: getSecurityManager
+    handler: com.cisco.argento.methodhandlers.SecurityManagerEnablerMethodHandler
+    entrycode: return (SecurityManager)com.cisco.mtagent.boot.instrumentation.MethodEntryAndExit.getReturnBackOverrideObject("sm");
+    condition: argento.use.security.manager.enabler.handler
+
+  - class: javax.servlet.Filter
+    method: doFilter
+    handler: com.cisco.argento.methodhandlers.ServletServiceMethodHandler
+    catch: true
+    interface: true
+    active: false
+
+  - class: java.sql.Statement
+    method: execute,executeQuery,executeUpdate,executeBatch
+    handler: com.cisco.argento.methodhandlers.JDBCMethodHandler
+    interface: true
+    catch: false
+
+  - class: javax.servlet.http.HttpServlet
+    method: service
+    handler: com.cisco.argento.methodhandlers.ServletServiceMethodHandler
+    signature: (Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+    catch: true
+
+  - class: java.lang.RuntimeException
+    method: RuntimeException
+    handler: com.cisco.argento.methodhandlers.SecurityExceptionMethodHandler
+    entry: false
+
+  - class: javax.net.ssl.SSLException
+    method: SSLException
+    handler: com.cisco.argento.methodhandlers.SecurityExceptionMethodHandler
+    entry: false
+
+  - class: java.security.GeneralSecurityException
+    method: GeneralSecurityException
+    handler: com.cisco.argento.methodhandlers.SecurityExceptionMethodHandler
+    entry: false
+
+  - class: javax.servlet.ServletException
+    method: ServletException
+    handler: com.cisco.argento.methodhandlers.SecurityExceptionMethodHandler
+    catch: false
+    entry: false
+
+  - class: javax.security.auth.login.LoginException
+    method: LoginException
+    handler: com.cisco.argento.methodhandlers.SecurityExceptionMethodHandler
+    entry: false
+
+  - class: java.lang.ProcessBuilder
+    method: start
+    handler: com.cisco.argento.methodhandlers.ProcessBuilderMethodHandler
+
+  #
+  # Reflection Tracking - Misc test with AccessController - both disabled for now
+  #
+
+  - class: java.security.AccessController
+    method: checkPermission
+    handler: com.cisco.argento.methodhandlers.GenericTraceMethodHandler
+    active: false
+
+  - class: java.lang.reflect.AccessibleObject
+    method: setAccessible
+    handler: com.cisco.argento.methodhandlers.ReflectionMethodHandler
+    interface: true
+    active: false
+
+  #
+  # Socket Level Instrumentation - requires a property to enable - argento.use.socket.tracing.handler
+  #
+
+  - class: java.net.SocketImpl
+    method: connect
+    handler: com.cisco.argento.methodhandlers.SocketConnectMethodHandler
+    interface: true
+    excludeclass: java.net.SocksSocketImpl
+    condition: argento.use.socket.tracing.handler
+
+  - class: java.net.Socket
+    method: connect
+    handler: com.cisco.argento.methodhandlers.SocketConnectMethodHandler
+    condition: argento.use.socket.tracing.handler
+
+  - class: java.net.ServerSocket
+    method: accept
+    handler: com.cisco.argento.methodhandlers.SocketAcceptMethodHandler
+    condition: argento.use.socket.tracing.handler
+
+  - class: java.nio.channels.ServerSocketChannel
+    method: accept
+    handler: com.cisco.argento.methodhandlers.SocketAcceptMethodHandler
+    signature: ()Ljava/nio/channels/SocketChannel;
+    interface: true
+    condition: argento.use.socket.tracing.handler
+
+  - class: java.net.URL
+    method: openConnection
+    handler: com.cisco.argento.methodhandlers.URLConnectionMethodHandler
+    condition: argento.use.socket.tracing.handler,multi.tenant.agent.unit.testing
+
+  #
+  # Serialization Instrumentation - some disabled right now
+  #
+
+  - class: java.io.Serializable
+    method: readObject
+    handler: com.cisco.argento.methodhandlers.SerializableMethodHandler
+    signature: (Ljava/io/ObjectInputStream;)V
+    interface: true
+    active: false
+
+  - class: java.io.ObjectInputStream
+    method: readObject
+    handler: com.cisco.argento.methodhandlers.SerializableMethodHandler
+    active: false
+
+  - class: java.io.ObjectInputStream
+    method: resolveClass
+    handler: com.cisco.argento.methodhandlers.SerializableMethodHandler
+
+ #
+ # Log4j2 Instrumentation
+ #
+
+# standard log4j2
+
+  - class: org.apache.logging.log4j.spi.AbstractLogger
+    method: logMessage
+    handler: com.cisco.argento.methodhandlers.Log4jMethodHandler
+    active: false
+
+# juli - java.util.logging.Formatter
+
+  - class: java.util.logging.Formatter
+    method: formatMessage
+    handler: com.cisco.argento.methodhandlers.Log4jMethodHandler
+    active: false
+
+  #
+  # Unit Test Instrumentation - for testing
+  #
+
+  - class: com.company.AgentInstrumentationTest$InterfaceClassInterface
+    method: executeInterface
+    handler: com.cisco.argento.methodhandlers.UnitTestMethodHandler
+    interface: true
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+
+  - class: com.company.AgentInstrumentationTest$InstrumentClass
+    method: executeDirect
+    handler: com.cisco.argento.methodhandlers.UnitTestMethodHandler
+    condition: multi.tenant.agent.unit.testing
+
+  - class: com.company.AgentInstrumentationTest$InstrumentClass
+    method: annotate:com.company.AgentInstrumentationTestAnnotations$MethodAnnotation
+    handler: com.cisco.argento.methodhandlers.UnitTestMethodHandler
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+
+  - class: com.company.AgentInstrumentationReturnBackTest
+    method: returnBackTest
+    handler: com.cisco.argento.methodhandlers.UnitTestReturnBackMethodHandler
+    entrycode: return (String)com.cisco.mtagent.boot.instrumentation.MethodEntryAndExit.getReturnBackOverrideObject("unit-test-value");
+    condition: multi.tenant.agent.unit.testing
+
+  - class: com.company.AgentInstrumentationDynamicTest
+    method: executeMethodStatic
+    handler: com.cisco.argento.methodhandlers.UnitTestReturnDynamicInstrumentationHandler
+    condition: multi.tenant.agent.unit.testing
+    id: dynamic-unit-test
+
+  - class: com.company.ServletHandlerTest$UTServlet
+    method: doGet
+    handler: com.cisco.argento.methodhandlers.UnitTestDelegateMethodHandler1,com.cisco.argento.methodhandlers.UnitTestDelegateMethodHandler2
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+    delegate: true
+    load-from: argento-tenant.jar
+
+  - class: com.company.ServletHandlerTest$UTServlet
+    method: doGet
+    handler: com.cisco.argento.methodhandlers.UnitTestDelegateMethodHandler3
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+    delegate: true
+    load-from: argento-tenant.jar
+
+  - class: com.company.ServletHandlerTest$UTServlet
+    method: doGetCall
+    handler: com.cisco.argento.methodhandlers.UnitTestMethodHandler1
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+
+  - class: com.company.ServletHandlerTest$UTServlet
+    method: doGetCall
+    handler: com.cisco.argento.methodhandlers.UnitTestMethodHandler2
+    catch: true
+    condition: multi.tenant.agent.unit.testing
+
+
+
+
+tenant-reflection-list:
+
+  #ENCRYPT
+
+  - name: agentEntry
+    script: com.singularity.ee.agent.appagent.AgentEntryPoint
+
+  - name: javaAgent
+    script: agentEntry.getJavaAgent()
+
+  - name: kernel
+    script: agentEntry.getJavaAgent().getKernel()
+
+  - name: lifecycleMgr
+    script: kernel.getLifeCycleManager()
+
+  - name: injector
+    script: lifecycleMgr.getInjector()
+
+  - name: instrumentation-handle
+    script: javaAgent.getInstrumentation()
+
+  - name: install-dir
+    script: javaAgent.getAgentInstallDir()
+
+  - name: version
+    script: javaAgent.getAgentVersion()
+
+  - name: logs
+    script: kernel.getLogsDir()
+
+  - name: schedulerManager
+    script: kernel.getAgentSchedulerManager()
+
+  - name: configManager
+    script: kernel.getConfigManager()
+
+  - name: getTruststore
+    script: configManager.getTrustStore()
+
+  - name: configurationChannel
+    script: kernel.getConfigurationChannel()
+
+  - name: configDir
+    script: configurationChannel.getConfDir()
+
+  - name: controllerHost
+    script: configurationChannel.getControllerHost()
+
+  - name: controllerPort
+    script: configurationChannel.getControllerPort()
+
+  - name: controllerVersion
+    script: configurationChannel.getControllerVersion()
+
+  - name: tierId
+    script: configurationChannel.getComponentID()
+
+  - name: nodeId
+    script: configurationChannel.getNodeID()
+
+  - name: applicationId
+    script: configurationChannel.getApplicationID()
+
+  - name: vendorId
+    script: configurationChannel.getVendorID()
+
+  - name: serverID
+    script: configurationChannel.getServerID()
+
+  - name: accountGUID
+    script: configurationChannel.getAccountGUID()
+
+  - name: controllerGUID
+    script: configurationChannel.getControllerGUID()
+
+  - name: accountKey
+    script: configurationChannel.getAccountKey()
+
+  - name: accountAccessKey
+    script: com.singularity.ee.agent.AgentAccountInfoStore.getInstance().getAccountAccessKey()
+
+  - name: agentProperties
+    script: kernel.getAgentProperties()
+
+  - name: services
+    script: lifecycleMgr.getRunningServices()
+
+  - name: eventHandler
+    script: lifecycleMgr.getEventHandler()
+
+  - name: metricAndEventPublisher
+    script: lifecycleMgr.getMetricAndEventPublisher()
+
+  - name: BCIEngineService
+    script: injector.getBCIEngineService()
+
+  - name: transactionMonitorService
+    script: injector.getTransactionMonitorService()
+
+  - name: transactionSnapshotService
+    script: injector.getTransactionSnapshotService()
+
+  - name: transactionThreadLocalManager
+    script: injector.getThreadLocalManager()
+
+  - name: currentBT
+    script: transactionThreadLocalManager.getThreadLocalBTContextForCurrentThread()
+
+  - name: currentTransactionContext
+    script: currentBT.getCurrentTransaction()
+
+  - name: currentSnapshot
+    script: currentTransactionContext.getSnapshot()
+
+  - name: callerComponentList
+    script: currentTransactionContext.getCallerComponentList()
+
+  - name: headerChain
+    script: currentTransactionContext.getHeaderChain()
+
+  - name: transactionId
+    script: currentTransactionContext.getTransactionIdentifier()
+
+  - name: requestGUID
+    script: currentTransactionContext.getRequestGUID()
+
+  - name: businessTransaction
+    script: currentTransactionContext.getTransaction()
+
+  - name: btId
+    script: businessTransaction.getId()
+
+  - name: currentRequestContext
+    script: currentBT.getCurrentRequestContext()
+
+  - name: currentEUMContext
+    script: currentBT.getEUMContext()
+
+  - name: clientRequestGUID
+    script: currentEUMContext.getClientRequestGUID()
+
+  - name: currentRequestContextfromEUM
+    script: currentEUMContext.getCurrentRequestContext()
+
+  - name: currentTransactionContextFromEUM
+    script: currentEUMContext.getCurrentTransactionContext()
+
+  - name: globalAccountName
+    script: currentEUMContext.getGlobalAccountName()
+
+  - name: currentCorrelationHeader
+    script: currentBT.getCorrelationHeader()
+
+  - name: entryPointType
+    script: currentRequestContext.getEntryPointType()
+
+  - name: businessTransactionType
+    script: currentRequestContext.getBusinessTransactionType()
+
+  - name: requestDataStore
+    script: currentRequestContext.getRequestDataStore()
+
+  - name: id
+    script: currentRequestContext.getId()
+
+  - name: agentEnabled
+    script: configurationChannel.isAgentEnabled()
+
+  - name: agentRegistered
+    script: configurationChannel.isRegistered()
+
+#END-ENCRYPTION
+
+tenant-specific-instrumentation-properties:
+  preloadClasses: java.lang.ProcessBuilder
+  noTransformClass: com.cisco.mtagent,com.cisco.argento,com.singularity,com.appdynamics
+  noTransformLoaderClassName: com.cisco.mtagent,com.cisco.argento,com.singularity,com.appdynamics
+  noTransformThreadName: Multi-Tenant-Agent-Initialization-Thread
+  classReviewInterval: 10
+  customMethodHandlerBuilderClass: com.cisco.argento.core.ArgentoPicoContainer
+  condition: "!argento.vulnerability.assessment.only"
+
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c2f34483-c59e-45e6-b830-9fe10f52c767  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Preloaded class java.lang.ProcessBuilder
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3e841747-e4d4-441a-925a-69f1b88ce113  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from standard configuration file: {handler=com.cisco.argento.loadhandlers.BootstrapLoadHandler, load=true}
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1d3ea7a0-3f07-47ec-bdfc-ae4a3eae64c6  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Adding rule from a handler configuration file: id: 2 number: 2 class: noclass method: nomethod signature: *
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e65f03d4-d348-4076-9e3f-b611b244bcb6  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loading com.cisco.argento.loadhandlers.BootstrapLoadHandler from Tenant argento into Classloader TenantClassLoader-argento
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  637ff056-dd9d-4519-b3f4-aff48cbe7835  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Argento PicoContainer (CustomBuilder) creating Method Handler com.cisco.argento.loadhandlers.BootstrapLoadHandler
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  52b4a3f3-e6a6-40a6-a493-abe30cf13010  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.sdk.SecurityEventInlineCallbackManager
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  41334905-1825-4f4e-ae6f-b84b0218daf2  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.utils.HandlerUtils
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  91029b48-7e5f-4a67-bdf0-9cfcb28883be  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.utils.ServletUtils
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  030ba25d-b8fb-4c0c-8863-82e3b2e07e1e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.utils.EventUtils
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  06d62f11-42bb-441d-b3bf-14627dc54493  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.transport.NetworkUtilities
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  bce1b9a3-5500-425b-8e90-88623708430d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.transport.AuthUtilities
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dbb30b87-db81-40f2-9a6b-af1eff6fd1ce  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.transport.ProtocolUtilities
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  ef4c3a54-e058-4c53-b540-afa34bcc3b3d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.vulnerabilities.VulnerabilityAssessment
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  605f956d-0e74-4110-9cc1-b7fa387e540e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.vulnerabilities.VulnerabilityAssessmentCheckLibs
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7adc5a5b-8dba-41ee-8adc-7335ce0ecf1b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.vulnerabilities.VulnerabilityAssessmentCheckRuntime
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c224fc2d-cc8f-433a-92c8-6b474a7a5891  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.events.process.EventProcessor
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6723322b-fa24-4d96-a410-a8724c7bf75e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.events.reports.ReportEventBuilder
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5a02675c-cb2f-434d-a31a-83226e0665eb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.events.InfrequentEvents
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2961cac0-77e9-4c79-9ae1-1cce8a84c226  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.core.RuntimeInfo
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  57b119d6-104e-4f7d-8ce1-ef28fda04598  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.securitymanager.AgentSecurityManager
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  fcae9f8a-5c74-4815-af23-2c15e17ef09b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.events.learning.LearnedEventUtils
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2eb642bf-cfda-49ec-9696-a65bac91a84c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.events.learning.LearnedEventExcludeUtils
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  74d17988-3353-4b29-a44e-0dfe9675590e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>>>>>>>>>>>>>>>>>>> Bootstrapping Argento Agent,  Application: undefined,  Tier: undefined,  Node: undefined, Account Key: undefined, Account Name: undefined
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c2fc968f-8108-47b6-82e6-2c740e98848b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Bootstrap Load Handler loaded into the Tenant Class Loader TenantClassLoader-argento, Agent Tenant is <br>Name: argento<br>Loader: com.cisco.mtagent.boot.Controller$TenantClassLoader:5dd10ac:26c3af67<br>Parent Loader: MultiTenantAgentClassLoader<br>ConfigFile: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/tenantConfig.yml<br>Libdir: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/lib
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dcef06be-08c3-4aa4-ad27-bc88a02af52f  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] +++++++++++++++++++++ Bootstrapping Agent inside BootstrapLoadHandler as tenant argento +++++++++++++++++++++
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4f3ae462-754e-4ee2-af2e-a2e4d28abe03  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Agent status about to be set to not started via Agent initializing as not started in bootstrap - ONLY registration can enable...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9f38b598-d398-4686-b4f9-68d5def10186  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Agent status has now been set to not started via Agent initializing as not started in bootstrap - ONLY registration can enable...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  12f02986-ecd7-44c6-b5eb-66e747eeaf85  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Located APM Agent installation @ /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4d81bb06-b5f9-4fe9-baed-095086c6a5c3  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] APM Agent is loaded and resides @ /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957 - now getting information to configuration Argento...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3b984e8f-3359-4abe-8f03-bd423bfe5a4a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: node-name=OnpremNode2311
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  4228b68f-f912-4a6a-96ec-22144c997051  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: tier-name=OnpremTier2311
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c6289998-7715-4885-b8a4-7f4b077e4a59  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: application-name=OnpremApp2311
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b61efc76-3ff3-4a69-82e6-fbaaa652f15a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Using reflection to check for AppD Truststore and get the account access key...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5ac9dcbb-45de-48c3-93f2-b46abce55a41  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: account-name=************
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d14e5360-ef18-42c9-afd6-04ed5a01f60d  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: controller-host=23-11-onprem-window2019-controller.e2e.appd-test.com
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1fc0cf12-572f-465e-9030-d0aaed214c82  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: controller-port=8181
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5b51933c-63a3-4c55-8264-8bd401219c49  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Got AppDynamics config Setting from xml tag: controller-ssl-enabled=true
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e7cec19b-e164-4f6a-a508-89e8b8354362  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] NO APM Agent proxy settings were detected...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7ade1665-6688-4bae-bd86-c13b94b54877  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Generated yaml policy /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/generatedArgentoPolicy.yml from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/argentoPolicy.json
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  cafadaba-e409-4ed4-8c45-0cff028ceb76  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loading static policy file from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/argentoStaticPolicy.yml
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a52acb60-610c-466b-b46c-7b1932eb8322  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Loading dynamic policy file from /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/generatedArgentoPolicy.yml
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  39d4014b-ec73-4ed8-a5e5-f92e729db052  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>>> Now processing a new policy....
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  87f3579f-0087-4594-b3e8-d7a7d2fcd5f4  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] The policy being loaded is the original base policy that has not been updated: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/generatedArgentoPolicy.yml
+WARNING  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  e560cca4-8443-4cdb-b08d-f13ec713f8cb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] WarningOccurred==> The current policy is set to not allow blocking...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  199189d7-3a10-427c-881f-54c1f896df51  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Reading Static policy file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/argentoStaticPolicy.yml:
+#
+# Argento Controller or Management Server host (if empty string will use the APM Controller as it's host)
+#
+# registration-url - for registration and heartbeats
+# reporting-url - where to send recurring reports
+# eventing-url - where to send events
+#
+# R&D Test Agent - non customer env
+#
+management_server_test:
+  host: "https://localhost:8090/"
+  registration-url: argentoMgmtService/api/management
+  reporting-url: argentoMgmtService/api/report
+  eventing-url: argentoMgmtService/api/event
+#
+# R&D Test Backend - non customer env
+#
+management_server_hyperflex:
+  host: "https://abs:8123"
+  registration-url: /argento-agent/v1/management
+  reporting-url: /argento-agent/v1/report
+  eventing-url: /argento-agent/v1/event
+#
+# Application Server Info
+#
+application_server_profiles:
+  - name: jboss
+    property-id: jboss.home.dir
+    set-headers-on-request: false
+  - name: weblogic
+    property-id: WL_HOME
+    set-headers-on-request: false
+  - name: liberty
+    property-id: wlp.install.dir
+    set-headers-on-request: true
+  - name: glassfish
+    property-id: com.sun.aas.installRoot
+    set-headers-on-request: false
+  - name: jetty
+    property-id: jetty.home
+    set-headers-on-request: false
+  - name: tomcat
+    property-id: catalina.base
+    set-headers-on-request: false
+  - name: websphere
+    property-id: was.install.root
+    set-headers-on-request: true
+
+
+
+
+
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  d65fa6c4-e96d-4ac6-bf42-ea0d90cc5fbb  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Now checking APM Controller host 23-11-onprem-window2019-controller.e2e.appd-test.com to see if it's a SaaS Customer...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3495f043-3955-47df-a039-d29b321f49d5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Bypassing static policy either because argento.management.no.static.policy was set or because regression testing not enabled (-Dmulti.tenant.agent.regression.testing=*****
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  6fb8a592-8271-40e4-b7cc-14fa8a58fdea  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Non saas controller url and reverse proxy url not set, assuming using reverse proxy.
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c316d100-9a6d-4b9a-83cc-e773b912cc6c  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Default to use controller account name as tenant name for the host header: Host=****************************
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c8f626e9-1475-4771-ab0f-e6a00ff512de  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Reading Dynamic policy file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/generatedArgentoPolicy.yml:
+---
+version: "1"
+uuid: "version-1"
+event_management_sql_injection:
+  security_event_unsafe_query_frequency_seconds: 60
+  block: false
+event_management_serialization:
+  security_event_unsafe_serialization_frequency_seconds: 60
+  ignore_serialized_classes:
+  - ">javax."
+  - ">java."
+  - ">sun."
+  - ">com.sun"
+  block: false
+  override_only: true
+  active: true
+event_management_exceptions:
+  event_include_exception_class_type:
+  - "java.lang.SecurityException"
+  - "java.security.GeneralSecurityException"
+  - "javax.net.ssl.SSLException"
+  event_exclude_exception_class_type:
+  - "javax.crypto.AEADBadTagException"
+  - "javax.crypto.BadPaddingException"
+  event_include_exception_class_name:
+  - "javax.security.auth.login.LoginException"
+  event_include_exception_msg_contains:
+  - "Login failed"
+  event_exclude_exception_msg_contains:
+  - ">Received fatal alert: certificate_unknown"
+  - ">closing inbound before receiving peer's close_notify"
+event_management_permissions:
+  event_security_manager_enabled: true
+  event_permission_after_sec: 20
+  event_stdout: false
+  event_track_learned_events: true
+  event_track_learned_events_lean_mode: false
+  event_track_learned_events_record_stack: false
+  event_max_track_learned_events: 1000
+  event_auto_write_learned_excludes: false
+  event_permissions_log_file: ""
+  event_include_permission_filter:
+  - permission: "FilePermission"
+    action:
+    - "write"
+    - "delete"
+    filters:
+    - name: "Exclude Folders"
+      exclude_targets:
+      - ">$APM_AGENT_DIR$"
+      - ">$APPLICATION_DIRECTORY$"
+      exclude_stacks: []
+      include_stacks: []
+      exclude_headers: []
+      include_headers: []
+      exclude_parameters: []
+      include_parameters: []
+      exclude_threads: []
+      include_threads: []
+      block: false
+      active: true
+      message: "Security event - attempting to alter File Content"
+  - permission: "FilePermission"
+    action:
+    - "execute"
+    filters:
+    - name: "Include Everyone"
+      include_targets:
+      - "*"
+      block: true
+      active: true
+      message: "Invalid launch of a Remote Command Execution"
+  - permission: "FilePermission"
+    action:
+    - "read"
+    filters:
+    - name: "Exclude Server Folders"
+      exclude_targets:
+      - ">$APM_AGENT_DIR$"
+      - ">$ARGENTO_AGENT_DIR$"
+      - ">$APPLICATION_DIRECTORY$"
+      - ">$DOMAIN_HOME$"
+      - ">$JAVA_HOME$"
+      block: false
+      active: true
+      message: "Security event - attempting to read a File"
+  - permission: "SocketPermission"
+    action:
+    - "connect"
+    filters:
+    - name: "Include All Addresses"
+      include_targets:
+      - "*"
+      message: "Security event - attempting to connect to Host"
+  - permission: "SocketPermission"
+    action:
+    - "listen"
+    filters:
+    - name: "Include All Addresses"
+      include_targets:
+      - "*"
+      message: "Security event - attempting to launch a Server on a local port"
+      block: true
+      active: true
+  event_exclude_permission_stack_filter:
+  - "never gonna match"
+invoked_method_definitions:
+  invoked_method_frequency_seconds: 60
+  invoked_method_rules:
+  - ruleid: "demo-test"
+    classname: "servlet.ArgentoDemoApp"
+    method: "dynamicMethodInvoke"
+    signature: "*"
+    block: true
+    condition: "multi.tenant.agent.regression.testing"
+    catch: true
+    code:
+    - "invoked=$2.equalsIgnoreCase(\"invokeme\")"
+  - ruleid: "log4shell"
+    classname: "org.apache.logging.log4j.core.net.JndiManager"
+    method: "lookup"
+    signature: "*"
+    block: true
+    condition: "multi.tenant.agent.regression.testing"
+    catch: true
+    code:
+    - "invoked=true"
+  - ruleid: "spring4shell"
+    classname: "org.springframework.validation.DataBinder"
+    method: "isAllowed"
+    signature: "*"
+    block: true
+    condition: "multi.tenant.agent.regression.testing"
+    catch: true
+    code:
+    - "invoked=$1.startsWith(\"class.module.classLoader\")"
+management_server:
+  management_server_heartbeat_sec: 60
+  management_server_heartbeat_start_sec: 30
+  auth_service_failure_mode_count: 10
+  auth_service_failure_mode_factor: 1
+transaction_processing:
+  exclude_transaction_content_type:
+  - "image"
+  exclude_transaction_url:
+  - ".ico"
+  - ".jpg"
+  - ".gif"
+  - "/argentoMgmtService"
+  exclude_transaction_servlet_filter: true
+  check_these_user_roles:
+  - "user"
+  - "guest"
+  - "admin"
+  add_security_headers:
+  - "Strict-Transport-Security: max-age=16070400; includeSubDomains"
+  - "X-Frame-Options: SAMEORIGIN"
+  - "X-XSS-Protection: 1; mode=block"
+  - "X-Content-Type-Options: nosniff"
+  check_security_headers:
+  - "Strict-Transport-Security"
+  - "X-Frame-Options"
+  - "X-XSS-Protection"
+  - "X-Content-Type-Options"
+  argento_request_control_header: "argento.commandHeader"
+  argento_event_id_headers: "argento.eventid"
+  security_event_unsafe_cookie_frequency_seconds: 60
+  exclude_cookies: []
+  security_event_non_encrypted_http_frequency_seconds: 60
+  block_non_encrypted_http: false
+  security_event_unauthenticated_user_frequency_seconds: 60
+  block_unauthenticated_user: false
+event_processing:
+  event_batch_flush_size: 50
+  event_batch_flush_time_msec: 5000
+  event_batch_abort_retransmit_msec: 60000
+  event_using_gzip: false
+  event_thread_pool_size: 5
+  event_retransmission_queue_size: 1000
+  event_retransmission_batch_size: 150
+  event_beacons: []
+  event_add_id_header: true
+  event_log: false
+  event_provide_stack: true
+  event_exclude_threads: []
+  event_callback_dir: "sdk/prod/lib"
+  event_callback_load: "custom.CustomSecurityEventInlineCallbackHandler"
+  event_add_http_headers: false
+  event_add_http_params: false
+  event_allow_non_transactions: true
+  non_transactions_thread_filter: []
+  event_reporting_retries: 10
+  event_reporting_retry_interval_msec: 5000
+  event_wait_first_transaction: true
+  event_max_add_content_size: 512
+  event_frequency_seconds: 60
+  tenant-masking-pii-list-replace-default: false
+  tenant-masking-pii-list-default:
+  - "Property:unit-test-pii"
+  tenant-masking-pii-list-events: []
+transaction_blocking_processing:
+  event_block_erase_stack: true
+  event_block_client_ips: []
+  event_block_talos_ips: []
+  event_block_inbound_urls: []
+vulnerability_assessment:
+  enabled: true
+  show_all_jars: true
+  audit_delta_minutes: 1440
+  audit_first_audit_seconds: 60
+  exclude_class:
+  - "["
+  - "com.singularity"
+  - "com.appdynamics"
+  - "com.cisco.argento"
+  - "com.cisco.mtagent"
+  exclude_loader:
+  - "com.singularity"
+  processing_threads: 10
+  processing_throttle_msec: 0
+  ssl_cipher_blocklist:
+  - "SSL_RSA_WITH_3DES_EDE_CBC_SHA"
+  ssl_protocol_blocklist:
+  - "SSLv2Hello"
+  - "SSLv3"
+  - "TLSv1"
+
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c224cfd6-ede6-4450-af9d-ab0dec59dedd  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Policy version is 1 , Policy uuid is version-1, Default: true
+WARNING  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  8bc3c8a1-6ec1-42f8-87f3-1fef9205744e  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] WarningOccurred==> Modifying policy to remove trigger action: read from permission FilePermission
+WARNING  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  3fb183f5-7524-4075-8eb2-ca3946848d44  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] WarningOccurred==> Permission rule for FilePermission and actions [read] is being removed...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  dc21be62-91c2-4095-a2df-a055603a15dd  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Removing filter {permission=FilePermission, action=[], filters=[{name=******* Server Folders, exclude_targets=[>$APM_AGENT_DIR$, >$ARGENTO_AGENT_DIR$, >$APPLICATION_DIRECTORY$, >$DOMAIN_HOME$, >$JAVA_HOME$], block=false, active=true, message=Security event - attempting to read a File}]} as it has been removed due to potential performance impact...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  9a288a05-0abf-44ae-ba92-6459da13189b  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Now adding mask from group argento:Argento-Default-Masking-Group, pattern: (?i)[^,\s]*unit-test-pii.*?[=]([^,;&"\s]*), agent-masking: true, contains: null
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b1a0acaf-416d-40d5-994f-6e85cff0edd5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Now adding mask from group argento:Argento-Event-Masking-Group, pattern: ([\d]+), agent-masking: false, contains: null
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  68ceb2e0-14ad-460a-a40b-08529cea0321  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Successfully processed Agent Policy from file /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/tenants/argento/config/generatedArgentoPolicy.yml
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  a380c258-f966-46c8-a788-adb099554404  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>>> Done processing a new policy....
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1a0953d7-cc99-4457-a506-f223d2449fdd  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating Argento PicoContainer (Dependency Injection) for class com.cisco.argento.server.DiagnosticsServer
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  14a846c7-5c2b-469b-961d-9cc400e2ebaa  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Launching event processing threads thread pool...max size is 5 threads...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  2f4abf87-5104-44e9-a56f-5d1a3aec7536  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Thread Cisco-Argento-Launch-Event-Flush-Timer-Thread is currently waiting for the Agent to be started...In Event Processing...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5361a63b-38ea-429b-ba29-e28d85f07bf6  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] 
+
+Argento Agent Setup==>
+
+Production Customer Setup: false
+Controller (Management Server) will be: 23-11-onprem-window2019-controller.e2e.appd-test.com
+Controller (Management Server) URL will be: https://23-11-onprem-window2019-controller.e2e.appd-test.com
+Controller (Management Server) Reporting URL will be: https://23-11-onprem-window2019-controller.e2e.appd-test.com/argento-agent/v1/report
+Controller (Management Server) Eventing URL will be: https://23-11-onprem-window2019-controller.e2e.appd-test.com/argento-agent/v1/event
+Controller (Management Server) Registration URL will be: https://23-11-onprem-window2019-controller.e2e.appd-test.com/argento-agent/v1/management
+Controller authentication will be: Using Auth Service from https://23-11-onprem-window2019-controller.e2e.appd-test.com:443/auth/v1/oauth/token
+Additional Headers added: {Host=e2e-customer.appdynamics.com}
+Auth Service URL will be: https://23-11-onprem-window2019-controller.e2e.appd-test.com:443/auth/v1/oauth/token
+Auth Service User will be: singularity-agent@e2e-customer
+Auth Service Password will be: ************************************
+Reverse Proxy URL: https://23-11-onprem-window2019-controller.e2e.appd-test.com:8181
+
+APM Agent Setup==>
+
+APM Agent There: true
+APM Agent Location: /Users/abhishekgoyal/Downloads/apache-tomcat-9.0.78/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+Application Name: OnpremApp2311
+Tier Name: OnpremTier2311
+Node Name: OnpremNode2311
+Controller Host: 23-11-onprem-window2019-controller.e2e.appd-test.com
+Controller Port: 8181
+Controller SSL: true
+Account Name: e2e-customer
+Account Key: ************************************
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  5ef4bca1-df20-4746-8d24-54462e02f1f5  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Starting registration with the Management Server and attempting to download updated policy files...
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  16c6f477-1299-4066-83f1-ecfc14094d2a  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] >>> Doing initial Management Server Registration and will be updating Policy File...server url is https://23-11-onprem-window2019-controller.e2e.appd-test.com/argento-agent/v1/management
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1cd0a1c9-6421-46f9-b89f-c942c2ee2149  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] Creating network client for Authentication, SSL: true, NonProd/SelfSigned: false , Is Custom Truststore: false
+WARNING  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b93e1a30-7b32-4c58-ac13-2ad46a34ebad  [Thread=Cisco-Multi-Tenant-Agent-Bootstrapping] WarningOccurred==> Setting a null or undefined header for appdynamics-agent-nodeUUID=undefined
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  1ce057b3-96c0-4a28-85ba-1ee77312f068  [Thread=Cisco-Multi-Tenant-Agent-Shutdown-Hook-Thread] Multi Agent shutdown hook being called...stack: 
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+com.cisco.mtagent.boot.utils.BootUtils.getStackTrace(BootUtils.java:263)
+com.cisco.mtagent.boot.Controller$1.run(Controller.java:895)
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  c3a4794e-a0e0-40db-8a03-9c0cf4407fd9  [Thread=Cisco-Multi-Tenant-Agent-Shutdown-Hook-Thread] Error Count: 0
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  b06521fb-8ce5-47cc-b63c-326ebe560df3  [Thread=Cisco-Multi-Tenant-Agent-Shutdown-Hook-Thread] Current Stack==> 
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+com.cisco.mtagent.boot.utils.BootUtils.getStackTrace(BootUtils.java:263)
+com.cisco.mtagent.boot.Controller$1.run(Controller.java:895)
+
+INFO  2023-11-06T15:37:17+05:30  ABHIGOYA-M-HCW6  MultiTenantAgent  31062  7e5fc78e-f1f6-4ed6-9f80-232530c13890  [Thread=Cisco-Multi-Tenant-Agent-Shutdown-Hook-Thread] Setting agent global shutdown flag...

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="com.sample.struts" extends="struts-default">
+        <action name="HelloStruts1" class="com.techstack.action.SampleStruts2Action1">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+        <action name="HelloStruts2" class="com.techstack.action.SampleStruts2Action2">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+        <action name="HelloStruts3" class="com.techstack.action.SampleStruts2Action3">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+        <action name="HelloStruts4" class="com.techstack.action.SampleStruts2Action4">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+        <action name="HelloStruts5" class="com.techstack.action.SampleStruts2Action5">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+        <action name="SpringInvoker" class="com.techstack.action.Spring3InvocationAction">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+
+        <action name="helloClassContainsNameEqualsAction"
+                class="com.techstack.action.HelloClassContainsNameEqualsAction">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+        <action name="helloNameEqualMethodEqualAction"
+                class="com.techstack.action.HelloNameEqualMethodEqualAction">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+        <action name="helloNameStartsWithMethodEqualsAction"
+                class="com.techstack.action.HelloNameStartsWithMethodEqualsAction">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+        <action name="helloClassEqualsMethodEqualsAction"
+                class="com.techstack.action.HelloClassEqualsMethodEqualsAction">
+            <result name="success">/hello.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+
+
+    </package>
+</struts>

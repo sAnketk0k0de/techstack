@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-dataformat-yaml-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/httpclient-4.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent-boot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent-V9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/javassist-3.27.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/picocontainer-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/snakeyaml-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-databind-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-annotations-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/httpcore-4.4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/jackson-core-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension/lib/commons-codec-1.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

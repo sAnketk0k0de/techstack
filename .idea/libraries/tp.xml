@@ -1,0 +1,57 @@
+<component name="libraryTable">
+  <library name="tp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/guava-shaded-32.0.1-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-exporter-otlp-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/log4j-core-2.17.1.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-api-shaded-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-trace-shaded-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/dagger-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/scs-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/httpcore-nio-4.4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/commons-fileupload-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/slf4j-api-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-exporter-otlp-logs-1.24.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/singularity-xml-2.12.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-exporter-logging-shaded-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/jackson-annotations-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/xercesImpl-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/protobuf-java-shaded-3.19.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/log4j-api-2.17.1.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/jackson-dataformat-yaml-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-semconv-1.24.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/zt-zip-1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/commons-math-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-proto-0.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/httpclient-4.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/jackson-databind-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-context-shaded-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-logs-shaded-1.24.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-extension-autoconfigure-shaded-1.24.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/perfmark-api-shaded-0.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/jackson-core-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-common-shaded-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/httpclient-cache-4.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/httpmime-4.5.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/log4j-jcl-2.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/commons-io-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/httpcore-4.4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/xml-apis-1.4.01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-sdk-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-resources-shaded-1.24.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/grpc-okhttp-shaded-1.46.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/commons-codec-1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/singularity-common-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/disruptor-shaded-2.11.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/tp/opentelemetry-exporter-otlp-common-shaded-1.24.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

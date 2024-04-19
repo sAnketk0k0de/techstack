@@ -1,0 +1,1580 @@
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:42:11,728  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Failed ReTransform Requests"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes ReTransformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|BT Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Agent Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Background Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Class File Read time(ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|App Config Poll"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Validation Failures"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Microseconds"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class refreshes"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Reporting"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Purge Operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Transformation Timeouts"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Non-Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class lookups"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Total Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Methods Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Objects created"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Abandoned BCI operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Background Transformations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class load misses"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class File Reads for MetaData"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class Loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:42:11,988  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="2391328"/>
+<metric	name="Agent|Agent Channels|RSD Trim Microseconds"	id="2391302"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="2391201"/>
+<metric	name="Agent|Agent Channels|BT Registration"	id="2391297"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="2391202"/>
+<metric	name="Agent|BCI|Average Class File Read time(ms)"	id="2391305"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="2391335"/>
+<metric	name="Agent|BCI|Bootstrap class loads"	id="2391312"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="2391326"/>
+<metric	name="Agent|BCI|Validation Failures"	id="2391324"/>
+<metric	name="Agent|BCI|Average Background Transform Time (ms)"	id="2391304"/>
+<metric	name="Agent|BCI|Abandoned BCI operations"	id="2391303"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="2391214"/>
+<metric	name="Agent|Agent Channels|Agent Registration"	id="2391295"/>
+<metric	name="Agent|BCI|Average Transform Time (ms)"	id="2391309"/>
+<metric	name="Agent|Agent Channels|RSD Total Count"	id="2391300"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="2391221"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="2391219"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="2391329"/>
+<metric	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	id="2391308"/>
+<metric	name="Agent|Agent Channels|Metric Reporting"	id="2391299"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="2391332"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="2391204"/>
+<metric	name="Agent|BCI|ClassMetaData Objects created"	id="2391317"/>
+<metric	name="Agent|BCI|Class Loads"	id="2391316"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="2391331"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="2391209"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="2391211"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="2391212"/>
+<metric	name="Agent|BCI|Bootstrap class refreshes"	id="2391314"/>
+<metric	name="Agent|BCI|Class File Reads for MetaData"	id="2391315"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="2391216"/>
+<metric	name="Agent|BCI|Methods Transformed"	id="2391322"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="2391222"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="2391330"/>
+<metric	name="Agent|BCI|Bootstrap class load misses"	id="2391311"/>
+<metric	name="Agent|BCI|Average Non-Transform Time (ms)"	id="2391307"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="2391203"/>
+<metric	name="Agent|Agent Channels|Metric Registration"	id="2391298"/>
+<metric	name="Agent|BCI|Failed ReTransform Requests"	id="2391321"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="2391206"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="2391208"/>
+<metric	name="Agent|Agent Channels|RSD Trim Count"	id="2391301"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="2391327"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="2391213"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="2391215"/>
+<metric	name="Agent|Agent Channels|App Config Poll"	id="2391296"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="2391334"/>
+<metric	name="Agent|BCI|Transformation Timeouts"	id="2391323"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="2391200"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="2391325"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="2391205"/>
+<metric	name="Agent|BCI|ClassMetaData Purge Operations"	id="2391318"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="2391333"/>
+<metric	name="JVM|Process CPU Usage %"	id="2391210"/>
+<metric	name="Agent|BCI|Classes ReTransformed"	id="2391319"/>
+<metric	name="Agent|BCI|Classes Transformed"	id="2391320"/>
+<metric	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	id="2391306"/>
+<metric	name="Agent|BCI|Bootstrap class lookups"	id="2391313"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="2391217"/>
+<metric	name="JVM|Memory:Non-Heap|Max Available (MB)"	id="2391218"/>
+<metric	name="JVM|Memory:Non-Heap|Used %"	id="2391220"/>
+<metric	name="Agent|BCI|Background Transformations"	id="2391310"/>
+</request>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:12,970  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/all.allbackendsservlet_SERVLET', name=/techstack-3.0/all.allbackendsservlet, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/all.allbackendsservlet'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:12,973  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1570 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:13,233  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3199]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/all.allbackendsservlet_SERVLET=36026}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:22,971  INFO BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/servlet.my5, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:22,971  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/servlet.my5, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:22,974  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 2644 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:23,238  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/servlet.my5_SERVLET', name=/techstack-3.0/servlet.my5, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/servlet.my5'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:23,361  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [5355]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=14302, name=/techstack-3.0/servlet.my5, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/servlet.my5, componentId=33877 ,applicationId=11385, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=60816, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+Successfully registered business transactions
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:23,973  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1548 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:24,360  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3075]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/servlet.my5_SERVLET=39721}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:31,850  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 3
+<ApplicationDiagnosticData{key='org.apache.axis.AxisFault:java.net.ConnectException:', name=AxisFault : ConnectException, diagnosticType=ERROR, configEntities=null, summary='org.apache.axis.AxisFault caused by java.net.ConnectException'}>
+<ApplicationDiagnosticData{key='java.lang.IllegalArgumentException:', name=IllegalArgumentException, diagnosticType=ERROR, configEntities=null, summary='java.lang.IllegalArgumentException'}>
+<ApplicationDiagnosticData{key='Internal Server Error : 500', name=Internal Server Error : 500, diagnosticType=ERROR, configEntities=null, summary='HTTP error code : 500'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:31,867  INFO ErrorProcessor - REST
+Sending Binary payload Size : 1642 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:32,129  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3291]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<ERROR>::<{Internal Server Error : 500=39723, java.lang.IllegalArgumentException:=39722, org.apache.axis.AxisFault:java.net.ConnectException:=36028}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:32,140  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 2
+<ApplicationDiagnosticData{key='org.apache.axis.AxisFault:java.net.ConnectException:583170957', name=org.apache.axis.AxisFault:java.net.ConnectException:, diagnosticType=STACK_TRACE, configEntities=[Type:ERROR, id:36028], summary='org.apache.axis.AxisFault:java.net.ConnectException:'}>
+<ApplicationDiagnosticData{key='java.lang.IllegalArgumentException:-1104877331', name=java.lang.IllegalArgumentException:, diagnosticType=STACK_TRACE, configEntities=[Type:ERROR, id:39722], summary='java.lang.IllegalArgumentException:'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:32,146  INFO ErrorProcessor - REST
+Sending Binary payload Size : 10690 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:32,409  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3273]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<STACK_TRACE>::<{java.lang.IllegalArgumentException:-1104877331=39724, org.apache.axis.AxisFault:java.net.ConnectException:583170957=36030}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:33,372  INFO BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/cookie.cookieservlet, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}, BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/myerror.jsp, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:33,372  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 2
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/cookie.cookieservlet, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/myerror.jsp, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:33,374  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 2762 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:33,878  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [5485]
+********BT Registration Data********
+<business-transactions>
+Size : 2
+<BusinessTransaction{id=14303, name=/techstack-3.0/cookie.cookieservlet, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/cookie.cookieservlet, componentId=33877 ,applicationId=11385, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=60816, enabledForEUM=false, eumAutoEnablePossible=null}>
+<BusinessTransaction{id=14304, name=/techstack-3.0/myerror.jsp, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/myerror.jsp, componentId=33877 ,applicationId=11385, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=60816, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+Successfully registered business transactions
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:34,367  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 2
+<ApplicationDiagnosticData{key='/techstack-3.0/cookie.cookieservlet_SERVLET', name=/techstack-3.0/cookie.cookieservlet, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/cookie.cookieservlet'}>
+<ApplicationDiagnosticData{key='/techstack-3.0/myerror.jsp_SERVLET', name=/techstack-3.0/myerror.jsp, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/myerror.jsp'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:34,368  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1720 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:34,669  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3135]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/cookie.cookieservlet_SERVLET=39725, /techstack-3.0/myerror.jsp_SERVLET=39726}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:44,673  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/simple.simplebackendsservlet_SERVLET', name=/techstack-3.0/simple.simplebackendsservlet, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/simple.simplebackendsservlet'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:44,675  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1582 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:42:44,935  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3205]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/simple.simplebackendsservlet_SERVLET=36025}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:51,842  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.axis.AxisFault:java.net.ConnectException:1212634892', name=org.apache.axis.AxisFault:java.net.ConnectException:, diagnosticType=STACK_TRACE, configEntities=[Type:ERROR, id:36028], summary='org.apache.axis.AxisFault:java.net.ConnectException:'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:51,845  INFO ErrorProcessor - REST
+Sending Binary payload Size : 7263 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:42:52,094  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3211]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<STACK_TRACE>::<{org.apache.axis.AxisFault:java.net.ConnectException:1212634892=36029}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:43:01,718  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14304|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14303|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|Error:36028|BT:13043|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14304|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Error Page Redirects per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Error Page Redirects per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14304|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14304|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|Error:39723|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14302|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14304|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Upload"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Exceptions per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exceptions per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14304|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36026|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14302|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|Error:36028|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|Error:39722|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14304|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14303|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14303|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36026|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14303|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14303|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14304|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14302|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14303|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13042|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14303|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14302|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14302|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14302|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|HTTP Error Codes per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|HTTP Error Codes per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|Error:36028|BT:13042|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14302|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:36026|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14303|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14302|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:43:02,239  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Average Response Time (ms)"	id="2664688"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Stall Count"	id="2664410"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Average Response Time (ms)"	id="2664734"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Calls per Minute"	id="2664699"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	id="2391722"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	id="2391714"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Errors per Minute"	id="2391776"/>
+<metric	name="BTM|Application Diagnostic Data|Error:39723|Errors per Minute"	id="2664660"/>
+<metric	name="BTM|Application Summary|Exceptions per Minute"	id="2391701"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	id="2391729"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Number of Slow Calls"	id="2391638"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Errors per Minute"	id="2664679"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Average Async Processing Time (ms)"	id="2664727"/>
+<metric	name="BTM|Application Diagnostic Data|Error:39722|Errors per Minute"	id="2664707"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Errors per Minute"	id="2391756"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Calls per Minute"	id="2664709"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36026|Calls per Minute"	id="2391746"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Normal Average Response Time (ms)"	id="2391692"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Calls per Minute"	id="2391627"/>
+<metric	name="BTM|Application Diagnostic Data|Error:36028|BT:13043|Errors per Minute"	id="2391674"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	id="2391712"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Number of Very Slow Calls"	id="2664409"/>
+<metric	name="BTM|Application Summary|Component:33877|Stall Count"	id="2391686"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Errors per Minute"	id="2664736"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	id="2391720"/>
+<metric	name="BTM|Application Diagnostic Data|Error:36028|Errors per Minute"	id="2391676"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Calls per Minute"	id="2664740"/>
+<metric	name="BTM|Application Summary|Component:33877|HTTP Error Codes per Minute"	id="2391682"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	id="2391727"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Errors per Minute"	id="2664664"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Errors per Minute"	id="2664683"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Average Response Time (ms)"	id="2664715"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Errors per Minute"	id="2664704"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Average Response Time (ms)"	id="2391754"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Calls per Minute"	id="2664732"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Average Response Time (ms)"	id="2391781"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Calls per Minute"	id="2391785"/>
+<metric	name="BTM|Application Diagnostic Data|Error:36028|BT:13042|Errors per Minute"	id="2391740"/>
+<metric	name="BTM|Application Summary|Component:33877|Average Response Time (ms)"	id="2391679"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Errors per Minute"	id="2664676"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Average Response Time (ms)"	id="2664680"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Number of Slow Calls"	id="2664408"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36026|Errors per Minute"	id="2391747"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	id="2391753"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Errors per Minute"	id="2391780"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	id="2391709"/>
+<metric	name="BTM|Application Summary|Component:33877|Exceptions per Minute"	id="2391700"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Errors per Minute"	id="2664389"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Average Response Time (ms)"	id="2664405"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Calls per Minute"	id="2664388"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Average Response Time (ms)"	id="2664741"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Calls per Minute"	id="2664705"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	id="2391771"/>
+<metric	name="BTM|Application Summary|Component:33877|Errors per Minute"	id="2391681"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	id="2391763"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Errors per Minute"	id="2664671"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Errors per Minute"	id="2664407"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Average Response Time (ms)"	id="2664667"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Errors per Minute"	id="2391770"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Calls per Minute"	id="2664694"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Errors per Minute"	id="2664713"/>
+<metric	name="BTM|Application Summary|Component:33877|Error Page Redirects per Minute"	id="2391680"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Number of Slow Calls"	id="2391629"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Average Response Time (ms)"	id="2664711"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	id="2391718"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3981]}|Average Response Time (ms)"	id="2664739"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Calls per Minute"	id="2391782"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3982]}|Errors per Minute"	id="2664706"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Errors per Minute"	id="2664673"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36026|Average Response Time (ms)"	id="2391745"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Average Response Time (ms)"	id="2664720"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	id="2391723"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Calls per Minute"	id="2391775"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Stall Count"	id="2391631"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Number of Very Slow Calls"	id="2664400"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Errors per Minute"	id="2664674"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	id="2391710"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Errors per Minute"	id="2664666"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Errors per Minute"	id="2391637"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Stall Count"	id="2664401"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Errors per Minute"	id="2391773"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Stall Count"	id="2664392"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Calls per Minute"	id="2391636"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Average Response Time (ms)"	id="2391787"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Average Response Time (ms)"	id="2664738"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	id="2391724"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Average Response Time (ms)"	id="2664718"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Calls per Minute"	id="2664406"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Calls per Minute"	id="2391755"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Average Response Time (ms)"	id="2664712"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Errors per Minute"	id="2664719"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Calls per Minute"	id="2391758"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Calls per Minute"	id="2664678"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Calls per Minute"	id="2664702"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Average Response Time (ms)"	id="2664735"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Calls per Minute"	id="2391788"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Errors per Minute"	id="2664697"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Calls per Minute"	id="2664670"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Calls per Minute"	id="2664691"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	id="2391715"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Errors per Minute"	id="2664737"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	id="2391716"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Calls per Minute"	id="2391779"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Normal Average Response Time (ms)"	id="2664730"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Errors per Minute"	id="2664681"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	id="2391721"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Average Response Time (ms)"	id="2664690"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Average Response Time (ms)"	id="2664723"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Average Response Time (ms)"	id="2664717"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Average Response Time (ms)"	id="2664693"/>
+<metric	name="BTM|Application Summary|Component:33877|Average Async Processing Time (ms)"	id="2391678"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Average Response Time (ms)"	id="2391764"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Average Response Time (ms)"	id="2391748"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Average Response Time (ms)"	id="2664396"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Number of Very Slow Calls"	id="2664391"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Calls per Minute"	id="2664701"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Number of Slow Calls"	id="2664390"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Average Response Time (ms)"	id="2391774"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	id="2391726"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Average Response Time (ms)"	id="2664662"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Errors per Minute"	id="2664686"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3979]}|Average Response Time (ms)"	id="2664700"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Normal Average Response Time (ms)"	id="2664692"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3980]}|Errors per Minute"	id="2664703"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Calls per Minute"	id="2391765"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3977]}|Calls per Minute"	id="2664696"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Average Response Time (ms)"	id="2391784"/>
+<metric	name="BTM|Application Summary|HTTP Error Codes per Minute"	id="2391688"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Stall Count"	id="2391640"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Average Response Time (ms)"	id="2391626"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Errors per Minute"	id="2664710"/>
+<metric	name="BTM|Application Summary|Error Page Redirects per Minute"	id="2391687"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Errors per Minute"	id="2391628"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	id="2391711"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	id="2391761"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Errors per Minute"	id="2391759"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	id="2391717"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	id="2391772"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Errors per Minute"	id="2664725"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	id="2391725"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Calls per Minute"	id="2664722"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3972]}|Errors per Minute"	id="2391783"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Calls per Minute"	id="2664687"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Errors per Minute"	id="2664726"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Number of Slow Calls"	id="2664399"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Errors per Minute"	id="2664398"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Calls per Minute"	id="2664665"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Average Response Time (ms)"	id="2664669"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Average Async Processing Time (ms)"	id="2664729"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Errors per Minute"	id="2664724"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	id="2391752"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	id="2391728"/>
+<metric	name="Agent|Agent Channels|RSD Upload"	id="2391673"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Average Response Time (ms)"	id="2391768"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3973]}|Errors per Minute"	id="2391786"/>
+<metric	name="BTM|Application Summary|Component:33877|Number of Very Slow Calls"	id="2391685"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	id="2391713"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Calls per Minute"	id="2664397"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Average Response Time (ms)"	id="2391635"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	id="2391760"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Average Async Processing Time (ms)"	id="2391691"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3971]}|Average Response Time (ms)"	id="2391778"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3975]}|Calls per Minute"	id="2664677"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	id="2391767"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3977]}|Calls per Minute"	id="2664721"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3975]}|Errors per Minute"	id="2664733"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Average Async Processing Time (ms)"	id="2391689"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Average Response Time (ms)"	id="2664684"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Calls per Minute"	id="2391769"/>
+<metric	name="BTM|Application Summary|Component:33877|Calls per Minute"	id="2391699"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Average Response Time (ms)"	id="2664714"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Errors per Minute"	id="2391750"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Calls per Minute"	id="2664689"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3979]}|Calls per Minute"	id="2664685"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Average Response Time (ms)"	id="2664682"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3974]}|Errors per Minute"	id="2391789"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3971]}|Calls per Minute"	id="2391749"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3978]}|Calls per Minute"	id="2664668"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Average Response Time (ms)"	id="2391751"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3976]}|Calls per Minute"	id="2664663"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3978]}|Average Response Time (ms)"	id="2664698"/>
+<metric	name="BTM|Application Summary|Component:33877|Number of Slow Calls"	id="2391684"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Average Async Processing Time (ms)"	id="2664731"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3972]}|Errors per Minute"	id="2391766"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Average Response Time (ms)"	id="2664387"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Normal Average Response Time (ms)"	id="2391690"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][3976]}|Errors per Minute"	id="2664695"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Number of Very Slow Calls"	id="2391630"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Number of Very Slow Calls"	id="2391639"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3981]}|Calls per Minute"	id="2664716"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3980]}|Calls per Minute"	id="2664672"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3974]}|Calls per Minute"	id="2391762"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:HTTP|To:{[UNRESOLVED][3982]}|Calls per Minute"	id="2664675"/>
+<metric	name="BTM|Application Summary|Component:33877|Exit Call:WEB_SERVICE|To:{[UNRESOLVED][3973]}|Average Response Time (ms)"	id="2391757"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Normal Average Response Time (ms)"	id="2664728"/>
+<metric	name="BTM|Application Summary|Component:33877|Infrastructure Errors per Minute"	id="2391683"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	id="2391719"/>
+</request>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:43:23,890  INFO BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/db.dbservlet, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global0] 02 Aug 2023 12:43:23,890  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/db.dbservlet, componentId=33877 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:43:23,893  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 2645 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:43:24,234  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [5356]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=14305, name=/techstack-3.0/db.dbservlet, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/db.dbservlet, componentId=33877 ,applicationId=11385, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=60816, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+Successfully registered business transactions
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:43:24,959  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/db.dbservlet_SERVLET', name=/techstack-3.0/db.dbservlet, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/db.dbservlet'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:43:24,961  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1550 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:43:25,237  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3076]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/db.dbservlet_SERVLET=39727}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:44:01,717  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14305|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Sink Writers Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Collector Objects Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36025|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14305|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Sent"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14305|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14305|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14305|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:36025|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14305|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14303|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Message Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14302|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14305|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:14305|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14304|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Message Send Errors"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Pending Messages In Queue"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36025|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:44:02,008  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="Agent|Analytics|Sink Writers Count"	id="2391739"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	id="2391735"/>
+<metric	name="BTM|BTs|BT:14304|Component:33877|Average Request Size"	id="2665101"/>
+<metric	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	id="2391767"/>
+<metric	name="Agent|Analytics|Pending Messages In Queue"	id="2391738"/>
+<metric	name="BTM|BTs|BT:14302|Component:33877|Average Request Size"	id="2665099"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Errors per Minute"	id="2664744"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	id="2391736"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Average Response Time (ms)"	id="2664742"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36025|Calls per Minute"	id="2391743"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Number of Slow Calls"	id="2664745"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Average Async Processing Time (ms)"	id="2665102"/>
+<metric	name="Agent|Analytics|Collector Objects Count"	id="2391732"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Stall Count"	id="2664747"/>
+<metric	name="Agent|Analytics|Message Latency (ms)"	id="2391733"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Number of Very Slow Calls"	id="2664746"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Calls per Minute"	id="2664743"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36025|Errors per Minute"	id="2391744"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36025|Average Response Time (ms)"	id="2391742"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Normal Average Response Time (ms)"	id="2665103"/>
+<metric	name="BTM|BTs|BT:14303|Component:33877|Average Request Size"	id="2665100"/>
+<metric	name="Agent|Analytics|Message Send Errors"	id="2391734"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	id="2391760"/>
+<metric	name="Agent|Analytics|Messages Sent"	id="2391737"/>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:45:01,717  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:39727|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:39727|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:39727|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14305|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:45:02,002  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13043|Component:33877|Average Request Size"	id="2391706"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:39727|Errors per Minute"	id="2665413"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:39727|Calls per Minute"	id="2665412"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|95th Percentile Response Time (ms)"	id="2391760"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|95th Percentile Response Time (ms)"	id="2665414"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:39727|Average Response Time (ms)"	id="2665411"/>
+</request>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:45:25,270  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 02 Aug 2023 12:45:25,273  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 02 Aug 2023 12:45:25,534  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [3177]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=36027}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:46:01,717  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13044|Component:33877|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:36027|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36027|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:36027|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13044|Component:33877|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13044|Component:33877|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13044|Component:33877|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:13044|Component:33877|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13042|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:14305|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:46:02,044  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Calls per Minute"	id="2391645"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Number of Slow Calls"	id="2391647"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Normal Average Response Time (ms)"	id="2391694"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Average Response Time (ms)"	id="2391644"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	id="2392357"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36027|Calls per Minute"	id="2392355"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Stall Count"	id="2391649"/>
+<metric	name="BTM|BTs|BT:14305|Component:33877|Average Request Size"	id="2665538"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Number of Very Slow Calls"	id="2391648"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36027|Average Response Time (ms)"	id="2392354"/>
+<metric	name="BTM|BTs|BT:13042|Component:33877|Average Request Size"	id="2391705"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Average Async Processing Time (ms)"	id="2391693"/>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Errors per Minute"	id="2391646"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:36027|Errors per Minute"	id="2392356"/>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:47:01,714  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|sessionCounter"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|expiredSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|processingTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|activeSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|maxActive"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|sessionAverageAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|sessionMaxAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:33877|JMX|Sessions|rejectedSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 12:47:01,982  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	id="2391799"/>
+<metric	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	id="2391801"/>
+<metric	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	id="2391798"/>
+<metric	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	id="2391802"/>
+<metric	name="Server|Component:33877|JMX|Sessions|activeSessions"	id="2391790"/>
+<metric	name="Server|Component:33877|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	id="2391800"/>
+<metric	name="Server|Component:33877|JMX|Sessions|maxActive"	id="2391792"/>
+<metric	name="Server|Component:33877|JMX|Sessions|rejectedSessions"	id="2391794"/>
+<metric	name="Server|Component:33877|JMX|Sessions|sessionCounter"	id="2391796"/>
+<metric	name="Server|Component:33877|JMX|Sessions|processingTime"	id="2391793"/>
+<metric	name="Server|Component:33877|JMX|Sessions|sessionAverageAliveTime"	id="2391795"/>
+<metric	name="Server|Component:33877|JMX|Sessions|sessionMaxAliveTime"	id="2391797"/>
+<metric	name="Server|Component:33877|JMX|Sessions|expiredSessions"	id="2391791"/>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:49:01,714  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:49:01,967  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|Average Request Size"	id="2391707"/>
+</request>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:50:21,844  INFO ErrorProcessor - REST - Sending Binary request - URL [/controller/instance/38902/btregistration] 
+********BT Registration Data********
+<node-id>
+60816
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.axis.AxisFault:java.net.ConnectException:-2016137276', name=org.apache.axis.AxisFault:java.net.ConnectException:, diagnosticType=STACK_TRACE, configEntities=[Type:ERROR, id:36028], summary='org.apache.axis.AxisFault:java.net.ConnectException:'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 02 Aug 2023 12:50:21,848  INFO ErrorProcessor - REST
+Sending Binary payload Size : 7318 bytes
+[AD Thread Pool-Global0] 02 Aug 2023 12:50:22,132  INFO ErrorProcessor - REST - Reading Binary response - URL [null] - Size [3099]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 12
+<3971>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.bing.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3972>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7082/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3973>::<NodeResolutionInfo[exitPointType=WEB_SERVICE, exitPointSubtype=WEB_SERVICE, properties=[Name:TRANSPORT_URL, Value:http://localhost:7081/Axis1Sample/services/Calculator], doNotResolve=false, doNotResolveReason=null]>
+<3974>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.google.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3975>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.yahoo.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3976>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.rediff.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3977>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.sun.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3978>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.ibm.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3979>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.oracle.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3980>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.coderanch.com, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3981>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:www.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+<3982>::<NodeResolutionInfo[exitPointType=HTTP, exitPointSubtype=HTTP, properties=[Name:HOST, Value:ant.apache.org, Name:PORT, Value:80], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<STACK_TRACE>::<{org.apache.axis.AxisFault:java.net.ConnectException:-2016137276=39739}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:51:01,717  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 12:51:01,968  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13043|Component:33877|95th Percentile Response Time (ms)"	id="2391767"/>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 13:03:01,721  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 02 Aug 2023 13:03:01,982  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	id="2392357"/>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 13:54:01,717  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 13:54:01,967  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	id="2392357"/>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 14:48:01,714  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 14:48:01,966  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	id="2392357"/>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 19:42:01,716  INFO MetricSender - Sending REST request - URL [/controller/instance/38902/metricregistration]
+<request>
+<node-id>60816</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 02 Aug 2023 19:42:01,960  INFO MetricSender - REST Response Received - URL [/controller/instance/38902/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:13044|Component:33877|95th Percentile Response Time (ms)"	id="2392357"/>
+</request>
+

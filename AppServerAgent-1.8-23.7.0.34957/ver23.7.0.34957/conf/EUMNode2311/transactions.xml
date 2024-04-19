@@ -1,0 +1,244 @@
+<business-transactions>
+    <time-stamp>1713508900902</time-stamp>
+    <pojo-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="fully-qualified-class-name"/>
+        </automatic-transaction-discovery>
+    </pojo-entry-points>
+    <struts-action-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="action-name-method-name"/>
+        </automatic-transaction-discovery>
+    </struts-action-entry-points>
+    <web-service-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="service-name-and-operation-name"/>
+        </automatic-transaction-discovery>
+    </web-service-entry-points>
+    <binary-remoting-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="simple-class-name-and-method-name"/>
+        </automatic-transaction-discovery>
+    </binary-remoting-entry-points>
+    <jms-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="destination-name"/>
+        </automatic-transaction-discovery>
+    </jms-entry-points>
+    <ejb-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="ejb-name-and-method-name"/>
+        </automatic-transaction-discovery>
+    </ejb-entry-points>
+    <servlet-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes>
+                <exclude name="Apache Axis2 Admin Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>d63d3e14-2700-4163-a142-3a1418376ce9</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.apache.axis2.transport.http.AxisAdminServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="CometD Annotation Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>0c336264-b470-4d78-9028-9a4507bd08e8</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.cometd.annotation.AnnotationCometdServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Jersey 2.x Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>4c2d1d1b-caa7-4ce0-91d6-16126fbc4ff8</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.glassfish.jersey.servlet.ServletContainer"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Websphere web-services axis Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>50dc2f51-b0ea-49e7-9981-95c4982c7390</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="com.ibm.ws.websvcs.transport.http.WASAxis2Servlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="JAX WS RI Dispatcher Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>ed75ce53-7472-474d-8b84-58fb17e74a48</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="com.sun.xml.ws.transport.http.servlet.WSServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Apache Axis2 Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>e58fae0e-b7f3-49f7-b0db-4373c125dbc8</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.apache.axis2.transport.http.AxisServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Struts Action Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>0ed98be9-7527-48c1-b2e5-33feaf259078</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.apache.struts.action.ActionServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Spring WS - Base servlet for Spring's web framework">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>3c82b2d9-0a34-43aa-88eb-c0a227bbeeb0</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.springframework.web.servlet.FrameworkServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="XFire web-services servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>caeaf434-d582-4660-846e-8799e15f1e0f</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.codehaus.xfire.transport.http.XFireConfigurableServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Websphere web-services Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>365eda2d-2253-4fb3-a011-fdd5b40651e5</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="com.ibm.ws.webservices.engine.transport.http.WebServicesServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="JBoss web-services servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>945527d4-42f6-403e-8bfc-f58ed5c18cb2</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.jboss.wsf.stack.jbws.EndpointServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Weblogic JAX RPC Servlets">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>2dbc1939-06c4-4de8-b606-c9457f8ca690</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="STARTSWITH" filter-value="weblogic.wsee.server.servlet."/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Weblogic JAX WS Webservice Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>9156ca2a-bba5-479e-afbd-10620a2332f2</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="weblogic.wsee.jaxws.JAXWSServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Weblogic JAX WS Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>359e6875-8f81-46f5-a893-e83173bcca04</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="weblogic.wsee.jaxws.JAXWSWebAppServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Jersey Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>57fb8117-873f-46ab-9a28-780ae1112b3c</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="com.sun.jersey.spi.container.servlet.ServletContainer"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="CometD Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>d282b8fa-1dcb-4d92-9647-afbcf36c9fc4</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.cometd.server.CometdServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Spring WS - dispatching of Web service messages">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>1b8fc3c1-11b1-425f-b1bf-23e2e4104a84</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.springframework.ws.transport.http.MessageDispatcherServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Apache Axis Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>f1ed8b76-9ae9-41e6-bb96-2cb568ba5a0d</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.apache.axis.transport.http.AxisServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="JBoss 6.x web-services Servlet">
+                    <servlet-rule>
+                        <enabled>true</enabled>
+                        <priority>0</priority>
+                        <ruleId>dc2333f3-d78b-4838-8923-5c30f89019c5</ruleId>
+                        <excluded>false</excluded>
+                        <class-name filter-type="EQUALS" filter-value="org.jboss.wsf.spi.deployment.WSFServlet"/>
+                    </servlet-rule>
+                </exclude>
+                <exclude name="Java Auto Discovery Rule">
+                    <servlet-rule>
+                        <enabled>false</enabled>
+                        <priority>-1</priority>
+                        <ruleId>2255ec28-2900-4a10-8a8b-22fe2927c71e</ruleId>
+                        <excluded>false</excluded>
+                    </servlet-rule>
+                </exclude>
+            </excludes>
+            <naming-scheme type="uri">
+                <property name="uri-length" value="first-n-segments"/>
+                <property name="segment-length" value="2"/>
+            </naming-scheme>
+        </automatic-transaction-discovery>
+    </servlet-entry-points>
+    <spring-bean-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="bean-id-and-method-name"/>
+        </automatic-transaction-discovery>
+    </spring-bean-entry-points>
+    <connection-identifier controllerGUID="1713478597"
+        controllerHost="master-saas-controller.e2e.appd-test.com" controllerPort="443"/>
+</business-transactions>

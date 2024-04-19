@@ -1,0 +1,6 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="dynamic-servlet-classes" value="com.techstack.servlet.MyInheritedServlet,org.apache.catalina.manager.HTMLManagerServlet"/>
+        <property name="bci-fixer-other-classes" value="com.mysql.jdbc.StatementImpl$CancelTask,org.apache.http.client.methods.HttpPost,org.apache.http.impl.client.CloseableHttpClient,org.apache.http.client.methods.HttpEntityEnclosingRequestBase,org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper,org.apache.tomcat.util.threads.InlineExecutorService,org.apache.tomcat.util.threads.ScheduledThreadPoolExecutor,org.apache.catalina.manager.HTMLManagerServlet,org.apache.http.client.methods.HttpRequestWrapper,java.util.logging.Logger,java.util.concurrent.Executors$RunnableAdapter,org.apache.struts2.dispatcher.ServletActionRedirectResult,org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper$NioOperationState,com.mysql.jdbc.JDBC4Connection$1,org.apache.tomcat.util.threads.ThreadPoolExecutor,org.apache.http.client.methods.HttpGet,org.slf4j.helpers.NOPLogger,com.techstack.servlet.MyInheritedServlet,com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap$AddTask,org.apache.struts2.dispatcher.ServletRedirectResult,java.lang.ApplicationShutdownHooks"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

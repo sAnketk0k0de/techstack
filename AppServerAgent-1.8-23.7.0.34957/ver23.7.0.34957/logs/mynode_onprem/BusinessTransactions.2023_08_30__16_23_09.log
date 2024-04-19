@@ -1,0 +1,4 @@
+[AD Agent init] 30 Aug 2023 16:23:09,495  INFO - Starting BT Logs at Wed Aug 30 16:23:09 IST 2023
+[AD Agent init] 30 Aug 2023 16:23:09,499  INFO - ###########################################################
+[AD Agent init] 30 Aug 2023 16:23:09,499  INFO - Using Java Agent Version [Server Agent #23.7.0.34957 v23.7.0 GA compatible with 4.4.1.0 r8255f01bb9584d1abc69e0e1de453afeaebdf34a release/23.7.0]
+[AD Agent init] 30 Aug 2023 16:23:09,499  INFO - Running IBM Java Agent [No]

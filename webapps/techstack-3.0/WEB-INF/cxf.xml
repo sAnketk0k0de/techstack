@@ -1,0 +1,60 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+    <import resource="classpath:META-INF/cxf/cxf.xml"/>
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+    <jaxws:endpoint id="changeUserName"
+                    implementor="com.techstack.serviceImpl.UserServiceImpl" address="/ChangeUserName"/>
+    <jaxws:endpoint id="addition"
+                    implementor="com.techstack.serviceImpl.AddServiceImpl" address="/Addition"/>
+    <jaxws:endpoint id="substract"
+                    implementor="com.techstack.serviceImpl.SubServiceImpl" address="/Substract"/>
+    <jaxws:endpoint id="product"
+                    implementor="com.techstack.serviceImpl.ProdServiceImpl" address="/Product"/>
+    <jaxws:endpoint id="divide"
+                    implementor="com.techstack.serviceImpl.DivServiceImpl" address="/Divide"/>
+    <jaxws:endpoint id="sayHello"
+                    implementor="com.techstack.serviceImpl.HelloServiceImpl" address="/SayHello"/>
+
+    <jaxws:endpoint id="changeUserName2"
+                    implementor="com.techstack.serviceImpl.UserServiceImpl" address="/ChangeUserName2"/>
+    <jaxws:endpoint id="addition2"
+                    implementor="com.techstack.serviceImpl.AddServiceImpl" address="/Addition2"/>
+    <jaxws:endpoint id="substract2"
+                    implementor="com.techstack.serviceImpl.SubServiceImpl" address="/Substract2"/>
+    <jaxws:endpoint id="product2"
+                    implementor="com.techstack.serviceImpl.ProdServiceImpl" address="/Product2"/>
+    <jaxws:endpoint id="divide2"
+                    implementor="com.techstack.serviceImpl.DivServiceImpl" address="/Divide2"/>
+    <jaxws:endpoint id="sayHello2"
+                    implementor="com.techstack.serviceImpl.HelloServiceImpl" address="/SayHello2"/>
+
+    <jaxws:endpoint id="myChangeUserName"
+                    implementor="com.techstack.serviceImpl.MyUserServiceImpl" address="/MyChangeUserName"/>
+    <jaxws:endpoint id="myAddition"
+                    implementor="com.techstack.serviceImpl.MyAddServiceImpl" address="/MyAddition"/>
+    <jaxws:endpoint id="mySubstract"
+                    implementor="com.techstack.serviceImpl.MySubServiceImpl" address="/MySubstract"/>
+    <jaxws:endpoint id="myProduct"
+                    implementor="com.techstack.serviceImpl.MyProdServiceImpl" address="/MyProduct"/>
+    <jaxws:endpoint id="myDivide"
+                    implementor="com.techstack.serviceImpl.MyDivServiceImpl" address="/MyDivide"/>
+    <jaxws:endpoint id="mySayHello"
+                    implementor="com.techstack.serviceImpl.MyHelloServiceImpl" address="/MySayHello"/>
+
+    <jaxws:endpoint id="myChangeUserName2"
+                    implementor="com.techstack.serviceImpl.MyUserServiceImpl" address="/MyChangeUserName2"/>
+    <jaxws:endpoint id="myAddition2"
+                    implementor="com.techstack.serviceImpl.MyAddServiceImpl" address="/MyAddition2"/>
+    <jaxws:endpoint id="mySubstract2"
+                    implementor="com.techstack.serviceImpl.MySubServiceImpl" address="/MySubstract2"/>
+    <jaxws:endpoint id="myProduct2"
+                    implementor="com.techstack.serviceImpl.MyProdServiceImpl" address="/MyProduct2"/>
+    <jaxws:endpoint id="myDivide2"
+                    implementor="com.techstack.serviceImpl.MyDivServiceImpl" address="/MyDivide2"/>
+    <jaxws:endpoint id="mySayHello2"
+                    implementor="com.techstack.serviceImpl.MyHelloServiceImpl" address="/MySayHello2"/>
+
+</beans>

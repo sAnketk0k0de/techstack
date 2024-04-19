@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scs-tool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/utils/scs/scs-tool.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:config.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="userService" class="com.techstack.service.UserService"/>
+    <bean id="premiumUserService" class="com.techstack.service.PremiumUserService"/>
+    <bean id="normalUserService" class="com.techstack.service.NormalUserService"/>
+    <bean id="priviledgedUserService" class="com.techstack.service.PriviledgedUserService"/>
+    <bean id="poorUserService" class="com.techstack.service.PoorUserService"/>
+    <bean id="ignoredUserService" class="com.techstack.service.IgnoredUserService"/>
+    <bean id="myBeanService1" class="com.techstack.service.MyBeanService1"/>
+    <bean id="myBeanService2" class="com.techstack.service.MyBeanService2"/>
+    <bean id="myBeanService3" class="com.techstack.service.MyBeanService3"/>
+    <bean id="myBeanService4" class="com.techstack.service.MyBeanService4"/>
+    <bean id="myBeanService5" class="com.techstack.service.MyBeanService5"/>
+    <bean id="myBeanService6" class="com.techstack.service.MyBeanService6"/>
+
+    <!-- RMI Server -->
+    <!--
+        <bean id="welcomeService" class="com.techstack.service.WelcomeServiceImpl"/>
+
+        <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+            <property name="serviceName" value="WelcomeService"/>
+            <property name="service" ref="welcomeService"/>
+            <property name="serviceInterface" value="com.techstack.interfaces.WelcomeService"/>
+            <property name="registryPort" value="${server.rmi.port}"/>
+        </bean>
+
+        &lt;!&ndash; Rmi Client &ndash;&gt;
+        <bean id="stub" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+            <property name="serviceUrl" value="rmi://${client.host}:${client.rmi.port}/WelcomeService"/>
+            <property name="serviceInterface" value="com.techstack.interfaces.WelcomeService"/>
+        </bean>
+    -->
+
+
+</beans>

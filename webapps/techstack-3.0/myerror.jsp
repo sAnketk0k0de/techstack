@@ -1,0 +1,1 @@
+this is from the redirect to the jsp pages for the servlet

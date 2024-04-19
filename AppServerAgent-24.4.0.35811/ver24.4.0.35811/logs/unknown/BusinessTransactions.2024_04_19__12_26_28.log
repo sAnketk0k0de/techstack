@@ -1,0 +1,4 @@
+[AD Agent init] 19 Apr 2024 12:26:28,489  INFO - Starting BT Logs at Fri Apr 19 12:26:28 IST 2024
+[AD Agent init] 19 Apr 2024 12:26:28,492  INFO - ###########################################################
+[AD Agent init] 19 Apr 2024 12:26:28,492  INFO - Using Java Agent Version [Server Agent #24.4.0.35811 v24.4.0 GA compatible with 4.4.1.0 r60214ed15ffdfa99232ba802ad57fc6f3cb4bc7f pull-requests/4850]
+[AD Agent init] 19 Apr 2024 12:26:28,492  INFO - Running IBM Java Agent [No]

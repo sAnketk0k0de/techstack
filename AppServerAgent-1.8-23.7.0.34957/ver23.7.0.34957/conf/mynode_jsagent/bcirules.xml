@@ -1,0 +1,6 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="dynamic-servlet-classes" value="com.techstack.servlet.MyInheritedServlet,org.apache.catalina.manager.HTMLManagerServlet"/>
+        <property name="bci-fixer-other-classes" value="org.apache.http.client.methods.HttpRequestWrapper,com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap$AddTask,org.apache.http.impl.client.CloseableHttpClient,org.apache.http.client.methods.HttpPost,org.apache.http.client.methods.HttpEntityEnclosingRequestBase,org.apache.http.client.methods.HttpGet,com.mysql.jdbc.JDBC4Connection$1,org.apache.struts2.dispatcher.ServletActionRedirectResult,org.apache.struts2.dispatcher.ServletRedirectResult,org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper,org.slf4j.helpers.NOPLogger,com.techstack.servlet.MyInheritedServlet,org.apache.catalina.manager.HTMLManagerServlet,org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper$NioOperationState,org.apache.tomcat.util.threads.ThreadPoolExecutor,org.apache.tomcat.util.threads.InlineExecutorService,org.apache.tomcat.util.threads.ScheduledThreadPoolExecutor,java.util.logging.Logger,java.util.concurrent.Executors$RunnableAdapter,com.mysql.jdbc.StatementImpl$CancelTask"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/singularity-log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/appagent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/appagent-boot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/lib/common-utils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

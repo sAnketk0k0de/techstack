@@ -1,0 +1,774 @@
+[AD Agent init] 05 Sep 2023 20:37:24,929  INFO - Starting BT Logs at Tue Sep 05 20:37:24 IST 2023
+[AD Agent init] 05 Sep 2023 20:37:24,933  INFO - ###########################################################
+[AD Agent init] 05 Sep 2023 20:37:24,933  INFO - Using Java Agent Version [Server Agent #23.7.0.34957 v23.7.0 GA compatible with 4.4.1.0 r8255f01bb9584d1abc69e0e1de453afeaebdf34a release/23.7.0]
+[AD Agent init] 05 Sep 2023 20:37:24,933  INFO - Running IBM Java Agent [No]
+[http-nio-8080-exec-1] 05 Sep 2023 20:37:55,191  INFO - BT [1] Name [/] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-1] 05 Sep 2023 20:37:55,191  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-1
+ID:41
+Time:Tue Sep 05 20:37:55 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-10] 05 Sep 2023 20:37:57,079  INFO - BT [2] Name [/manager/WEB-INF] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-10] 05 Sep 2023 20:37:57,080  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-10
+ID:50
+Time:Tue Sep 05 20:37:57 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:373)
+org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-5] 05 Sep 2023 20:38:05,200  INFO - BT [3] Name [/techstack-3.0/] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-5] 05 Sep 2023 20:38:05,201  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-5
+ID:45
+Time:Tue Sep 05 20:38:05 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-2] 05 Sep 2023 20:38:38,465  INFO - BT [4] Name [/techstack-3.0/all.allbackendsservlet] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-2] 05 Sep 2023 20:38:38,465  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-2
+ID:42
+Time:Tue Sep 05 20:38:38 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.BackendServlet.doGet(BackendServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-6] 05 Sep 2023 20:40:23,571  INFO - BT [5] Name [/techstack-3.0/setEumJsSnippet.jsp] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-6] 05 Sep 2023 20:40:23,572  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-6
+ID:46
+Time:Tue Sep 05 20:40:23 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-10] 05 Sep 2023 20:40:27,668  INFO - BT [6] Name [/techstack-3.0/seteumjssnippetform] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-10] 05 Sep 2023 20:40:27,669  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-10
+ID:50
+Time:Tue Sep 05 20:40:27 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.EUMSetJSSnippetFromFormServlet.doPost(EUMSetJSSnippetFromFormServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-4] 05 Sep 2023 20:40:29,613  INFO - BT [7] Name [/techstack-3.0/eum] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-4] 05 Sep 2023 20:40:29,614  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-4
+ID:44
+Time:Tue Sep 05 20:40:29 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.EUMJSInjectedHttpResponseServlet.doGet(EUMJSInjectedHttpResponseServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-9] 05 Sep 2023 20:41:00,793  INFO - BT [8] Name [/techstack-3.0/index.jsp] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-9] 05 Sep 2023 20:41:00,796  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-9
+ID:49
+Time:Tue Sep 05 20:41:00 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-5] 05 Sep 2023 20:41:11,292  INFO - BT [9] Name [/techstack-3.0/ajax.ajaxservlet] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-5] 05 Sep 2023 20:41:11,293  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-5
+ID:45
+Time:Tue Sep 05 20:41:11 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.AjaxJspServlet.doGet(AjaxJspServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-8] 05 Sep 2023 20:41:51,670  INFO - BT [10] Name [/techstack-3.0/ajax-snippet.jsp] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-8] 05 Sep 2023 20:41:51,671  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-8
+ID:48
+Time:Tue Sep 05 20:41:51 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-10] 05 Sep 2023 20:45:38,236  INFO - BT [11] Name [/techstack-3.0/request.requestmethod] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-10] 05 Sep 2023 20:45:38,236  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-10
+ID:50
+Time:Tue Sep 05 20:45:38 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.SplitRequestMethodServlet.doGet(SplitRequestMethodServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-3] 05 Sep 2023 20:45:43,776  INFO - BT [12] Name [/techstack-3.0/first.firstsegment] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-3] 05 Sep 2023 20:45:43,777  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-3
+ID:43
+Time:Tue Sep 05 20:45:43 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.SplitFirstSegmentServlet.doGet(SplitFirstSegmentServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-9] 05 Sep 2023 21:29:54,565  INFO - BT [13] Name [/] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-9] 05 Sep 2023 21:29:54,567  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-9
+ID:49
+Time:Tue Sep 05 21:29:54 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-9] 05 Sep 2023 21:47:25,277  INFO - BT [14] Name [/manager/WEB-INF] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-9] 05 Sep 2023 21:47:25,279  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-9
+ID:49
+Time:Tue Sep 05 21:47:25 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:373)
+org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-7] 05 Sep 2023 22:16:03,096  INFO - BT [15] Name [/techstack-3.0/cookie.cookievalue] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-7] 05 Sep 2023 22:16:03,098  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-7
+ID:47
+Time:Tue Sep 05 22:16:03 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.SplitCookieValueServlet.doGet(SplitCookieValueServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-10] 05 Sep 2023 22:16:08,806  INFO - BT [16] Name [/techstack-3.0/servlet.my5] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-10] 05 Sep 2023 22:16:08,807  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-10
+ID:50
+Time:Tue Sep 05 22:16:08 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.MyServlet.doGet(MyServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-3] 05 Sep 2023 22:16:25,033  INFO - BT [17] Name [/techstack-3.0/simple.simplejsprender] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-3] 05 Sep 2023 22:16:25,034  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-3
+ID:43
+Time:Tue Sep 05 22:16:25 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.SimpleJspRenderServlet.doGet(SimpleJspRenderServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-5] 05 Sep 2023 22:21:41,748  INFO - BT [18] Name [/manager/html] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-5] 05 Sep 2023 22:21:41,748  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-5
+ID:45
+Time:Tue Sep 05 22:21:41 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.catalina.manager.HTMLManagerServlet.doGet(HTMLManagerServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:190)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-3] 05 Sep 2023 22:21:48,669  INFO - BT [19] Name [/host-manager/WEB-INF] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-3] 05 Sep 2023 22:21:48,669  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-3
+ID:43
+Time:Tue Sep 05 22:21:48 IST 2023
+State:RUNNABLE
+Priority:5
+
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:373)
+org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-5] 05 Sep 2023 22:22:26,267  INFO - BT [20] Name [/techstack-3.0/servlet.my1] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-5] 05 Sep 2023 22:22:26,267  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-5
+ID:45
+Time:Tue Sep 05 22:22:26 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.MyServlet.doGet(MyServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+
+[http-nio-8080-exec-8] 05 Sep 2023 22:22:30,224  INFO - BT [21] Name [/techstack-3.0/ad.adservlet] Type [SERVLET] Custom [false]
+[http-nio-8080-exec-8] 05 Sep 2023 22:22:30,224  INFO - Discovery Stack 
+Thread Name:http-nio-8080-exec-8
+ID:48
+Time:Tue Sep 05 22:22:30 IST 2023
+State:RUNNABLE
+Priority:5
+
+com.techstack.servlet.ADServlet.doGet(ADServlet.java)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(Unknown Source)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+

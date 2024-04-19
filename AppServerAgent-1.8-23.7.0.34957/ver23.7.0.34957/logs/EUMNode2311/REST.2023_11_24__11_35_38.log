@@ -1,0 +1,3573 @@
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:36:09,008  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Reporting"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Objects created"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Background Transformations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Total Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Agent Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|BT Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Transformation Timeouts"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes ReTransformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|App Config Poll"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Abandoned BCI operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class lookups"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Methods Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Validation Failures"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class File Reads for MetaData"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Microseconds"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class Loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Failed ReTransform Requests"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Class File Read time(ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Background Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class load misses"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Non-Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class refreshes"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Purge Operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:36:09,328  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="1197401"/>
+<metric	name="Agent|Agent Channels|RSD Trim Microseconds"	id="1197375"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="1197301"/>
+<metric	name="Agent|Agent Channels|BT Registration"	id="1197370"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="1197302"/>
+<metric	name="Agent|BCI|Average Class File Read time(ms)"	id="1197378"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="1197408"/>
+<metric	name="Agent|BCI|Bootstrap class loads"	id="1197385"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="1197399"/>
+<metric	name="Agent|BCI|Validation Failures"	id="1197397"/>
+<metric	name="Agent|BCI|Average Background Transform Time (ms)"	id="1197377"/>
+<metric	name="Agent|BCI|Abandoned BCI operations"	id="1197376"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="1197314"/>
+<metric	name="Agent|Agent Channels|RSD Total Count"	id="1197373"/>
+<metric	name="Agent|Agent Channels|Agent Registration"	id="1197368"/>
+<metric	name="Agent|BCI|Average Transform Time (ms)"	id="1197382"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="1197321"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="1197319"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="1197402"/>
+<metric	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	id="1197381"/>
+<metric	name="Agent|Agent Channels|Metric Reporting"	id="1197372"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="1197405"/>
+<metric	name="Agent|BCI|ClassMetaData Objects created"	id="1197390"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="1197304"/>
+<metric	name="Agent|BCI|Class Loads"	id="1197389"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="1197309"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="1197404"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="1197311"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="1197312"/>
+<metric	name="Agent|BCI|Bootstrap class refreshes"	id="1197387"/>
+<metric	name="Agent|BCI|Class File Reads for MetaData"	id="1197388"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="1197316"/>
+<metric	name="Agent|BCI|Methods Transformed"	id="1197395"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="1197322"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="1197403"/>
+<metric	name="Agent|BCI|Bootstrap class load misses"	id="1197384"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="1197303"/>
+<metric	name="Agent|Agent Channels|Metric Registration"	id="1197371"/>
+<metric	name="Agent|BCI|Average Non-Transform Time (ms)"	id="1197380"/>
+<metric	name="Agent|BCI|Failed ReTransform Requests"	id="1197394"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="1197306"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="1197308"/>
+<metric	name="Agent|Agent Channels|RSD Trim Count"	id="1197374"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="1197313"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="1197400"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="1197315"/>
+<metric	name="Agent|Agent Channels|App Config Poll"	id="1197369"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="1197407"/>
+<metric	name="Agent|BCI|Transformation Timeouts"	id="1197396"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="1197300"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="1197398"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="1197305"/>
+<metric	name="Agent|BCI|ClassMetaData Purge Operations"	id="1197391"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="1197406"/>
+<metric	name="JVM|Process CPU Usage %"	id="1197310"/>
+<metric	name="Agent|BCI|Classes ReTransformed"	id="1197392"/>
+<metric	name="Agent|BCI|Classes Transformed"	id="1197393"/>
+<metric	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	id="1197379"/>
+<metric	name="Agent|BCI|Bootstrap class lookups"	id="1197386"/>
+<metric	name="JVM|Memory:Non-Heap|Max Available (MB)"	id="1197318"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="1197317"/>
+<metric	name="JVM|Memory:Non-Heap|Used %"	id="1197320"/>
+<metric	name="Agent|BCI|Background Transformations"	id="1197383"/>
+</request>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:15,793  INFO BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/, componentId=5628 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:15,795  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/, componentId=5628 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:36:15,795  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:36:15,808  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:36:16,137  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:16,878  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 2633 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:17,303  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [3512]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=7598, name=/techstack-3.0/, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/techstack-3.0/, componentId=5628 ,applicationId=2555, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=36073, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+Successfully registered business transactions
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:36,143  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:36,147  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:36,403  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:56,410  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:56,413  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:36:56,663  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:37:09,007  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:7598|Component:5628|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:7598|Component:5628|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:7598|Component:5628|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:7598|Component:5628|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:5628|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:5628|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:5628|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:7598|Component:5628|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:37:09,365  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	id="1197436"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	id="1197446"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Number of Slow Calls"	id="1197412"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Calls per Minute"	id="1197410"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	id="1197444"/>
+<metric	name="BTM|Application Summary|Component:5628|Infrastructure Errors per Minute"	id="1197422"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Errors per Minute"	id="1197411"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	id="1197441"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	id="1197433"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	id="1197445"/>
+<metric	name="BTM|Application Summary|Component:5628|Errors per Minute"	id="1197421"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Stall Count"	id="1197414"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	id="1197448"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Number of Very Slow Calls"	id="1197413"/>
+<metric	name="BTM|Application Summary|Component:5628|Number of Very Slow Calls"	id="1197424"/>
+<metric	name="BTM|Application Summary|Component:5628|Number of Slow Calls"	id="1197423"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Average Response Time (ms)"	id="1197409"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Normal Average Response Time (ms)"	id="1197427"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	id="1197434"/>
+<metric	name="BTM|Application Summary|Component:5628|Calls per Minute"	id="1197420"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	id="1197435"/>
+<metric	name="BTM|Application Summary|Component:5628|Average Response Time (ms)"	id="1197419"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	id="1197447"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	id="1197437"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	id="1197443"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	id="1197431"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	id="1197440"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	id="1197442"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	id="1197428"/>
+<metric	name="BTM|Application Summary|Component:5628|Average Async Processing Time (ms)"	id="1197418"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	id="1197432"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	id="1197430"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Average Async Processing Time (ms)"	id="1197426"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	id="1197439"/>
+<metric	name="BTM|Application Summary|Component:5628|Stall Count"	id="1197425"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	id="1197438"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	id="1197429"/>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:16,667  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:16,674  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:16,934  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:36,940  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:36,943  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:37,230  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:47,233  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:47,236  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:37:47,481  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:07,488  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:07,491  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:07,737  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:38:09,001  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Message Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Collector Objects Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Message Send Errors"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Pending Messages In Queue"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Sent"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Sink Writers Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:38:09,306  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="Agent|Analytics|Collector Objects Count"	id="1197449"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	id="1197452"/>
+<metric	name="Agent|Analytics|Sink Writers Count"	id="1197456"/>
+<metric	name="Agent|Analytics|Message Latency (ms)"	id="1197450"/>
+<metric	name="Agent|Analytics|Pending Messages In Queue"	id="1197455"/>
+<metric	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	id="1197457"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	id="1197453"/>
+<metric	name="Agent|Analytics|Message Send Errors"	id="1197451"/>
+<metric	name="Agent|Analytics|Messages Sent"	id="1197454"/>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:27,742  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:27,754  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:38:28,004  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:38:48,011  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:38:48,014  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:38:48,295  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:08,301  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:08,308  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:08,556  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:28,560  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:28,565  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:28,815  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:48,820  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:48,826  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:39:49,121  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:40:09,006  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|sessionAverageAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|rejectedSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|processingTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|activeSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|maxActive"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|sessionMaxAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|expiredSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:5628|JMX|Sessions|sessionCounter"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:09,127  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:40:09,330  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	id="1197466"/>
+<metric	name="Server|Component:5628|JMX|Sessions|expiredSessions"	id="1197459"/>
+<metric	name="Server|Component:5628|JMX|Sessions|rejectedSessions"	id="1197462"/>
+<metric	name="Server|Component:5628|JMX|Sessions|sessionMaxAliveTime"	id="1197465"/>
+<metric	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	id="1197468"/>
+<metric	name="Server|Component:5628|JMX|Sessions|sessionCounter"	id="1197464"/>
+<metric	name="Server|Component:5628|JMX|Sessions|sessionAverageAliveTime"	id="1197463"/>
+<metric	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	id="1197467"/>
+<metric	name="Server|Component:5628|JMX|Sessions|processingTime"	id="1197461"/>
+<metric	name="Server|Component:5628|JMX|Sessions|activeSessions"	id="1197458"/>
+<metric	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	id="1197469"/>
+<metric	name="Server|Component:5628|JMX|Sessions|maxActive"	id="1197460"/>
+<metric	name="Server|Component:5628|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	id="1197470"/>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:10,089  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:10,420  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:40:20,424  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:40:20,429  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:40:20,763  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:40,765  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:40,767  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:40:41,003  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:01,007  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:01,014  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:01,253  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:41:21,261  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:41:21,266  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:41:21,515  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:41,523  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:41,527  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:41:42,422  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:02,430  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:02,433  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:02,668  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:22,672  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:22,677  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:22,925  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:32,926  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:32,930  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:33,167  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:53,177  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:53,181  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:42:53,418  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:13,421  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:13,426  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:13,715  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:17,435  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<eum-auto-enable-possible-bt-ids>
+[7598]
+</eum-auto-enable-possible-bt-ids>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:17,439  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 218 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:17,692  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [633]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:33,726  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:33,730  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:33,969  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:53,975  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:53,979  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:43:54,217  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:44:09,006  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Upload"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:44:09,316  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="Agent|Agent Channels|RSD Upload"	id="1197475"/>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:14,225  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:14,229  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:14,466  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:44:34,470  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:44:34,474  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:44:34,708  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:54,711  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:54,715  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:44:54,953  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:45:09,003  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:45:09,321  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	id="1197457"/>
+</request>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:45:14,963  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:45:14,967  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:45:15,203  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:25,205  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:25,208  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:25,443  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:45,451  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:45,454  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:45:45,692  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:05,696  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:05,704  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:05,941  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:25,946  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:25,950  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:46:26,220  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:46:46,227  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:46:46,231  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:46:46,466  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:06,471  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:06,474  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:06,778  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:26,786  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:26,788  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:27,021  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:47:47,023  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:47:47,990  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:47:48,248  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:58,250  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:58,255  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:47:58,508  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:48:18,514  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:48:18,518  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:48:18,863  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:38,868  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:38,872  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:39,140  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:59,141  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:59,145  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:48:59,400  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:19,409  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:19,412  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:19,663  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:39,673  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:39,676  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:39,923  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:59,931  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:49:59,934  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:50:00,179  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:50:09,000  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 24 Nov 2023 11:50:09,251  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:7598|Component:5628|95th Percentile Response Time (ms)"	id="1197457"/>
+</request>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:20,187  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:20,190  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:20,435  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:30,443  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:30,445  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:30,688  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:50,693  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:50,699  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:50:50,947  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:10,955  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:10,957  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:11,200  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:31,203  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:31,206  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:31,459  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:51,463  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:51,468  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:51:51,719  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:11,726  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:11,728  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:11,974  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:52:31,981  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:52:31,985  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:52:32,306  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:52,315  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:52,319  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:52:52,563  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:12,573  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:12,576  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:12,821  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:53:22,825  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:53:22,829  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:53:23,075  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:43,081  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:43,085  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:53:43,336  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:54:03,343  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:54:03,344  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:54:03,589  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:56:09,002  INFO MetricSender - Sending REST request - URL [/controller/instance/32330/metricregistration]
+<request>
+<node-id>36073</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:7598|Component:5628|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 24 Nov 2023 11:56:09,283  INFO MetricSender - REST Response Received - URL [/controller/instance/32330/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:7598|Component:5628|Average Request Size"	id="1197496"/>
+</request>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:33,707  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:33,710  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:33,962  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:53,963  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:53,966  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:58:54,210  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:14,218  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:14,220  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:14,463  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:34,468  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:34,470  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 11:59:34,807  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:59:54,814  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 24 Nov 2023 11:59:54,816  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global0] 24 Nov 2023 11:59:55,057  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:15,064  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:15,067  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:15,314  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:25,317  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/32330/btregistration] 
+********BT Registration Data********
+<node-id>
+36073
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/techstack-3.0/_SERVLET', name=/techstack-3.0/, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/techstack-3.0/'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:25,319  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 24 Nov 2023 12:00:25,560  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [952]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/techstack-3.0/_SERVLET=-3}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+

@@ -1,0 +1,76 @@
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  8aa43197-e48f-4dbd-a6fb-311ec0fe04e4  [Thread=AD Thread Pool-Global0] Initial logging set from the override logs dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/logs/EUMNode2311
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  7316b4cb-ca77-445a-bf6e-e83f1e4fee1b  [Thread=AD Thread Pool-Global0] Now initializing the Dynamic Service  argentoDynamicService
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  bfd59346-319c-4477-9ae7-1b04ecadd72b  [Thread=AD Thread Pool-Global0] Multi-Tenant-Agent-Dynamic-Service: starting service...
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  cf201fd8-d7df-40ac-b2b5-1b6e8c21a7b1  [Thread=AD Thread Pool-Global0] Now launching the AgentStartupHookAdaptor called by the Dynamic Service...launching from /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  cb3ad41f-d1ec-4446-98e9-eeee686cfbd7  [Thread=AD Thread Pool-Global0] Launching Argento Dynamic Service via com.cisco.mtagent.adaptors.AgentStartupHookAdaptor
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  9106d270-0d76-4131-88f4-ac25cb8c22d9  [Thread=AD Thread Pool-Global0] Current directory is /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/bin/.
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  617f5d17-f642-42bc-bac8-f1bdb84719a5  [Thread=AD Thread Pool-Global0] Adaptor directory is /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  835c8b8d-65c3-44ee-8b78-ac7a5326f05e  [Thread=AD Thread Pool-Global0] Are we doing Unit Tests? false
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  3f067ca8-4b51-4d2c-ba29-69f09e09d3d1  [Thread=AD Thread Pool-Global0] Preparing Dynamic Services folder /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argento-security-extension
+ERROR  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  62397448-1d27-4799-abdd-a8d0cca3c8ce  [Thread=AD Thread Pool-Global0] Problem loading Adaptor for Multi-Tenant Agent: java.io.FileNotFoundException: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argentoDynamicService.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.loadProperties(AgentStartupHookAdaptor.java:217)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.launchAgent(AgentStartupHookAdaptor.java:285)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.launch(AgentStartupHookAdaptor.java:198)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.main(AgentStartupHookAdaptor.java:173)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.fromService(AgentStartupHookAdaptor.java:102)
+	at com.cisco.mtagent.adaptors.AgentDynamicServiceAdaptor.start(AgentDynamicServiceAdaptor.java:121)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.startNewDynamicService(DynamicServiceManager.java:654)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.processAndStartDynamicServiceDirectory(DynamicServiceManager.java:547)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollServiceDirectory(DynamicServiceManager.java:469)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollDirectoryForNewServices(DynamicServiceManager.java:435)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollForNewServices(DynamicServiceManager.java:357)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.run(DynamicServiceManager.java:322)
+	at com.singularity.ee.util.javaspecific.scheduler.AgentScheduledExecutorServiceImpl$SafeRunnable.run(AgentScheduledExecutorServiceImpl.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at com.singularity.ee.util.javaspecific.scheduler.ADFutureTask$Sync.innerRunAndReset(ADFutureTask.java:335)
+	at com.singularity.ee.util.javaspecific.scheduler.ADFutureTask.runAndReset(ADFutureTask.java:152)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.access$101(ADScheduledThreadPoolExecutor.java:119)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.runPeriodic(ADScheduledThreadPoolExecutor.java:206)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.run(ADScheduledThreadPoolExecutor.java:236)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.runTask(ADThreadPoolExecutor.java:694)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:726)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+ERROR  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  1e3ee22f-bec2-41ef-a57e-f16e65888119  [Thread=AD Thread Pool-Global0] Could not launch Agent from Adaptor: java.lang.Exception: Problem loading Adaptor for Multi-Tenant Agent - Could not launch from directory /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService, ERROR: java.io.FileNotFoundException: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78%203/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/external-services/argentoDynamicService/argentoDynamicService.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.loadProperties(AgentStartupHookAdaptor.java:217)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.launchAgent(AgentStartupHookAdaptor.java:285)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.launch(AgentStartupHookAdaptor.java:198)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.main(AgentStartupHookAdaptor.java:173)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.fromService(AgentStartupHookAdaptor.java:102)
+	at com.cisco.mtagent.adaptors.AgentDynamicServiceAdaptor.start(AgentDynamicServiceAdaptor.java:121)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.startNewDynamicService(DynamicServiceManager.java:654)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.processAndStartDynamicServiceDirectory(DynamicServiceManager.java:547)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollServiceDirectory(DynamicServiceManager.java:469)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollDirectoryForNewServices(DynamicServiceManager.java:435)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.pollForNewServices(DynamicServiceManager.java:357)
+	at com.singularity.ee.agent.appagent.kernel.DynamicServiceManager.run(DynamicServiceManager.java:322)
+	at com.singularity.ee.util.javaspecific.scheduler.AgentScheduledExecutorServiceImpl$SafeRunnable.run(AgentScheduledExecutorServiceImpl.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at com.singularity.ee.util.javaspecific.scheduler.ADFutureTask$Sync.innerRunAndReset(ADFutureTask.java:335)
+	at com.singularity.ee.util.javaspecific.scheduler.ADFutureTask.runAndReset(ADFutureTask.java:152)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.access$101(ADScheduledThreadPoolExecutor.java:119)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.runPeriodic(ADScheduledThreadPoolExecutor.java:206)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$ADScheduledFutureTask.run(ADScheduledThreadPoolExecutor.java:236)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.runTask(ADThreadPoolExecutor.java:694)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:726)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+INFO  2024-04-19T12:07:02+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  79173  068b59ab-4d13-48e3-9d16-310468631c3c  [Thread=AD Thread Pool-Global0] 
+APM Service Info==> 
+Installation Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+Agent Runtime Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+Config Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/conf
+Runtime Config Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/conf
+Base Config Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/conf
+Installation Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957
+Node Dir: EUMNode2311
+Logs Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-1.8-23.7.0.34957/ver23.7.0.34957/logs/EUMNode2311
+

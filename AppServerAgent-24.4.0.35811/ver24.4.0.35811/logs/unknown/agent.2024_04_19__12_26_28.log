@@ -1,0 +1,4 @@
+[AD Agent init] 19 Apr 2024 12:26:28,492  INFO JavaAgent - Logging set up for log4j2
+[AD Agent init] 19 Apr 2024 12:26:28,492 ERROR JavaAgent - *******************
+[AD Agent init] 19 Apr 2024 12:26:28,492 ERROR JavaAgent - *  Unable to determine Tier Name or Node Name. Java Agent disabled
+[AD Agent init] 19 Apr 2024 12:26:28,492 ERROR JavaAgent - *******************
