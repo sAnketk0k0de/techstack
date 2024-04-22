@@ -75,3 +75,5 @@ Installation Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServer
 Node Dir: EUMNode2311
 Logs Dir: /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/AppServerAgent-24.4.0.35811/ver24.4.0.35811/logs/EUMNode2311
 
+ERROR  2024-04-21T22:51:49+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  96027  f47f7376-5f37-4bf2-ad98-8af2c35dfcab  [Thread=AD Thread Pool-Global1] Unable to create notification on enable or disable the Agent, Error: java.lang.ClassNotFoundException: Unable to load class com.cisco.mtagent.boot.Controller
+ERROR  2024-04-21T22:51:55+05:30  SKOKUDE-M-X9MV  SecureAppDynamicService  96027  8a8306b4-90a3-4267-8b3b-7c645a1d37d8  [Thread=AD Thread Pool-Global1] Unable to create notification on enable or disable the Agent, Error: java.lang.ClassNotFoundException: Unable to load class com.cisco.mtagent.boot.Controller

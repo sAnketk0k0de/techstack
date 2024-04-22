@@ -111,12 +111,12 @@
     <!-- The account name for multi-tenant Controllers.
     You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
     the system property '-Dappdynamics.agent.accountName' -->
-    <account-name></account-name>
+    <account-name>e2e-customer</account-name>
     <!-- The account access key.
     You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
     the system property '-Dappdynamics.agent.accountAccessKey'
     if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
-    <account-access-key></account-access-key>
+    <account-access-key>296740cd-2493-4d71-8f73-1ca55809d6ed</account-access-key>
 
     <!-- Change to 'true' only under special circumstances when you want to override this node's application name
     or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,

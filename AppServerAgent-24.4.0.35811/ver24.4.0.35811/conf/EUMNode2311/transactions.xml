@@ -1,40 +1,12 @@
 <business-transactions>
-    <time-stamp>1713508900902</time-stamp>
-    <pojo-entry-points enabled="true">
+    <time-stamp>1713651317510</time-stamp>
+    <spring-bean-entry-points enabled="true">
         <custom/>
         <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
             <excludes/>
-            <naming-scheme type="fully-qualified-class-name"/>
+            <naming-scheme type="bean-id-and-method-name"/>
         </automatic-transaction-discovery>
-    </pojo-entry-points>
-    <struts-action-entry-points enabled="true">
-        <custom/>
-        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
-            <excludes/>
-            <naming-scheme type="action-name-method-name"/>
-        </automatic-transaction-discovery>
-    </struts-action-entry-points>
-    <web-service-entry-points enabled="true">
-        <custom/>
-        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
-            <excludes/>
-            <naming-scheme type="service-name-and-operation-name"/>
-        </automatic-transaction-discovery>
-    </web-service-entry-points>
-    <binary-remoting-entry-points enabled="true">
-        <custom/>
-        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
-            <excludes/>
-            <naming-scheme type="simple-class-name-and-method-name"/>
-        </automatic-transaction-discovery>
-    </binary-remoting-entry-points>
-    <jms-entry-points enabled="true">
-        <custom/>
-        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
-            <excludes/>
-            <naming-scheme type="destination-name"/>
-        </automatic-transaction-discovery>
-    </jms-entry-points>
+    </spring-bean-entry-points>
     <ejb-entry-points enabled="true">
         <custom/>
         <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
@@ -42,6 +14,41 @@
             <naming-scheme type="ejb-name-and-method-name"/>
         </automatic-transaction-discovery>
     </ejb-entry-points>
+    <jms-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="destination-name"/>
+        </automatic-transaction-discovery>
+    </jms-entry-points>
+    <struts-action-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="action-name-method-name"/>
+        </automatic-transaction-discovery>
+    </struts-action-entry-points>
+    <binary-remoting-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="simple-class-name-and-method-name"/>
+        </automatic-transaction-discovery>
+    </binary-remoting-entry-points>
+    <web-service-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="service-name-and-operation-name"/>
+        </automatic-transaction-discovery>
+    </web-service-entry-points>
+    <pojo-entry-points enabled="true">
+        <custom/>
+        <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
+            <excludes/>
+            <naming-scheme type="fully-qualified-class-name"/>
+        </automatic-transaction-discovery>
+    </pojo-entry-points>
     <servlet-entry-points enabled="true">
         <custom/>
         <automatic-transaction-discovery enabled="true" resolution="first-entry-point">
@@ -232,13 +239,6 @@
             </naming-scheme>
         </automatic-transaction-discovery>
     </servlet-entry-points>
-    <spring-bean-entry-points enabled="true">
-        <custom/>
-        <automatic-transaction-discovery enabled="false" resolution="first-entry-point">
-            <excludes/>
-            <naming-scheme type="bean-id-and-method-name"/>
-        </automatic-transaction-discovery>
-    </spring-bean-entry-points>
-    <connection-identifier controllerGUID="1713478597"
+    <connection-identifier controllerGUID="1713651265"
         controllerHost="master-saas-controller.e2e.appd-test.com" controllerPort="443"/>
 </business-transactions>

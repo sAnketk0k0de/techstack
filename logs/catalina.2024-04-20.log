@@ -1,0 +1,141 @@
+20-Apr-2024 01:32:43.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Apr-2024 01:32:43.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Apr-2024 01:32:43.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Apr-2024 01:32:43.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20+9-LTS-256
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3
+20-Apr-2024 01:32:43.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/conf/logging.properties
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:./../AppServerAgent-24.4.0.35811/ver24.4.0.35811/javaagent.jar
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3
+20-Apr-2024 01:32:43.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/temp
+20-Apr-2024 01:32:43.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/sanketkokude/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Apr-2024 01:32:44.105 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2024 01:32:44.115 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1040)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1324)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1337)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+20-Apr-2024 01:32:44.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [373] milliseconds
+20-Apr-2024 01:32:44.145 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Apr-2024 01:32:44.145 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Apr-2024 01:32:44.159 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/techstack-3.0.war]
+20-Apr-2024 01:32:45.976 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2024 01:32:46.539 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}UserServiceImplService from class com.techstack.interfaces.UserService
+20-Apr-2024 01:32:46.948 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /ChangeUserName
+20-Apr-2024 01:32:46.963 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}AddServiceImplService from class com.techstack.interfaces.AddService
+20-Apr-2024 01:32:46.977 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Addition
+20-Apr-2024 01:32:46.980 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}SubServiceImplService from class com.techstack.interfaces.SubService
+20-Apr-2024 01:32:46.994 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Substract
+20-Apr-2024 01:32:46.996 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}ProdServiceImplService from class com.techstack.interfaces.ProdService
+20-Apr-2024 01:32:47.015 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Product
+20-Apr-2024 01:32:47.017 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}DivServiceImplService from class com.techstack.interfaces.DivService
+20-Apr-2024 01:32:47.025 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Divide
+20-Apr-2024 01:32:47.027 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}HelloServiceImplService from class com.techstack.interfaces.HelloService
+20-Apr-2024 01:32:47.033 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /SayHello
+20-Apr-2024 01:32:47.034 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}UserServiceImplService from class com.techstack.interfaces.UserService
+20-Apr-2024 01:32:47.037 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /ChangeUserName2
+20-Apr-2024 01:32:47.038 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}AddServiceImplService from class com.techstack.interfaces.AddService
+20-Apr-2024 01:32:47.043 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Addition2
+20-Apr-2024 01:32:47.044 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}SubServiceImplService from class com.techstack.interfaces.SubService
+20-Apr-2024 01:32:47.047 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Substract2
+20-Apr-2024 01:32:47.048 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}ProdServiceImplService from class com.techstack.interfaces.ProdService
+20-Apr-2024 01:32:47.050 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Product2
+20-Apr-2024 01:32:47.051 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}DivServiceImplService from class com.techstack.interfaces.DivService
+20-Apr-2024 01:32:47.056 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /Divide2
+20-Apr-2024 01:32:47.057 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}HelloServiceImplService from class com.techstack.interfaces.HelloService
+20-Apr-2024 01:32:47.060 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /SayHello2
+20-Apr-2024 01:32:47.062 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyUserServiceImplService from class com.techstack.interfaces.MyUserService
+20-Apr-2024 01:32:47.070 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyChangeUserName
+20-Apr-2024 01:32:47.073 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyAddServiceImplService from class com.techstack.interfaces.MyAddService
+20-Apr-2024 01:32:47.080 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyAddition
+20-Apr-2024 01:32:47.082 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MySubServiceImplService from class com.techstack.interfaces.MySubService
+20-Apr-2024 01:32:47.090 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MySubstract
+20-Apr-2024 01:32:47.092 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyProdServiceImplService from class com.techstack.interfaces.MyProdService
+20-Apr-2024 01:32:47.100 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyProduct
+20-Apr-2024 01:32:47.103 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyDivServiceImplService from class com.techstack.interfaces.MyDivService
+20-Apr-2024 01:32:47.109 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyDivide
+20-Apr-2024 01:32:47.111 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyHelloServiceImplService from class com.techstack.interfaces.MyHelloService
+20-Apr-2024 01:32:47.116 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MySayHello
+20-Apr-2024 01:32:47.117 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyUserServiceImplService from class com.techstack.interfaces.MyUserService
+20-Apr-2024 01:32:47.119 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyChangeUserName2
+20-Apr-2024 01:32:47.120 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyAddServiceImplService from class com.techstack.interfaces.MyAddService
+20-Apr-2024 01:32:47.123 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyAddition2
+20-Apr-2024 01:32:47.124 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MySubServiceImplService from class com.techstack.interfaces.MySubService
+20-Apr-2024 01:32:47.126 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MySubstract2
+20-Apr-2024 01:32:47.127 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyProdServiceImplService from class com.techstack.interfaces.MyProdService
+20-Apr-2024 01:32:47.129 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyProduct2
+20-Apr-2024 01:32:47.130 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyDivServiceImplService from class com.techstack.interfaces.MyDivService
+20-Apr-2024 01:32:47.132 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MyDivide2
+20-Apr-2024 01:32:47.133 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://serviceImpl.techstack.com/}MyHelloServiceImplService from class com.techstack.interfaces.MyHelloService
+20-Apr-2024 01:32:47.135 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /MySayHello2
+20-Apr-2024 01:32:47.478 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/techstack-3.0.war] has finished in [3,319] ms
+20-Apr-2024 01:32:47.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/docs]
+20-Apr-2024 01:32:47.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/docs] has finished in [10] ms
+20-Apr-2024 01:32:47.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/manager]
+20-Apr-2024 01:32:47.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/manager] has finished in [16] ms
+20-Apr-2024 01:32:47.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/examples]
+20-Apr-2024 01:32:47.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/examples] has finished in [94] ms
+20-Apr-2024 01:32:47.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/ROOT]
+20-Apr-2024 01:32:47.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/ROOT] has finished in [7] ms
+20-Apr-2024 01:32:47.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/host-manager]
+20-Apr-2024 01:32:47.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sanketkokude/Downloads/apache-tomcat-9.0.78 3/webapps/host-manager] has finished in [10] ms
+20-Apr-2024 01:32:47.621 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3505] milliseconds
+20-Apr-2024 01:32:47.623 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:582)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+20-Apr-2024 01:32:47.623 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Apr-2024 01:32:47.623 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Apr-2024 01:32:47.649 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Apr-2024 01:32:47.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
